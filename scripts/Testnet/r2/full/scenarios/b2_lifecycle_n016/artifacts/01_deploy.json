@@ -1,0 +1,54 @@
+{
+  "highlights": {
+    "implementationAddress": "0x4C2AE5f5A5930b8A36A7828AbE826Cf5f6A64574",
+    "implementationLink": "https://sepolia.etherscan.io/address/0x4C2AE5f5A5930b8A36A7828AbE826Cf5f6A64574",
+    "factoryAddress": "0xcD5884aF2F948F81cAd07B369C0bb505900E0d48",
+    "factoryLink": "https://sepolia.etherscan.io/address/0xcD5884aF2F948F81cAd07B369C0bb505900E0d48",
+    "batchAddress": "0xD8b725cBdeF50ccfa87103147126506E7086A587",
+    "batchLink": "https://sepolia.etherscan.io/address/0xD8b725cBdeF50ccfa87103147126506E7086A587",
+    "reusedSharedDeployment": true,
+    "sharedDeploymentKey": "aurora-r2"
+  },
+  "transactions": [
+    {
+      "label": "createBatch",
+      "txHash": "0x6f3172380f704c0fa58b200e1eb45a1b44d1ef91cd2fe964dfc90f0ba74afa20",
+      "txLink": "https://sepolia.etherscan.io/tx/0x6f3172380f704c0fa58b200e1eb45a1b44d1ef91cd2fe964dfc90f0ba74afa20",
+      "from": "0xE875A5cdFF44FA0990F8497d2dE9389d3A82748F",
+      "to": "0xcD5884aF2F948F81cAd07B369C0bb505900E0d48",
+      "gasUsed": "162431",
+      "effectiveGasPrice": "1117798412",
+      "gasCostWei": "181565113859572",
+      "blockNumber": 11384953,
+      "blockTimestamp": 1785445524,
+      "latencyMs": 8763,
+      "status": 1,
+      "eventNames": [
+        "BatchCreated"
+      ]
+    }
+  ],
+  "actors": {
+    "deployer": "0xE875A5cdFF44FA0990F8497d2dE9389d3A82748F",
+    "prover": "0x798B43A32C1aB1126e978f40D037DC490ad95bAB",
+    "verifier": "0xE875A5cdFF44FA0990F8497d2dE9389d3A82748F",
+    "users": [
+      "0x219A9BA3aB4D4Db17a3394c8633F01962C592825",
+      "0xFA21adff4dDCb5bA95fd84690449c4406bDd497f",
+      "0x0A7146B9dFc38AB8884317ED0B7588fB4534e5D6",
+      "0xa1604Ef6c48204BbF15Fd84458d69C6C0cD59993",
+      "0xe3c3d60906E6D436ddcF0DE7A947Ea66d2fc37f5",
+      "0xff0751932a22aF83E24653193d8138EB5E7e98D7",
+      "0xB6363468E3Ff66361c37E08d33F3FEEACEaB4391",
+      "0xDc124B53c4325e63622aDf5B35Fa5AeA9DD74393",
+      "0xA2b63289e0B2eA6C57E22449E794e35a7d64c01B",
+      "0x380553E3e9Ed8599e8008373Ba8fdDFE25bd7E08",
+      "0x1a5063bb6C10Df0b19eC5dd9c2C64071261cdCFf",
+      "0xbbC35a7eAD4A5FB6f7aBBC7f4b0048B0A8f87596",
+      "0x7830406774145A09D0E8937F058831eB6AD88617",
+      "0xe2926259F248507ea948EAC18403c7401263d078",
+      "0x2FdF8d70C62226B735ECB98d5f94600877C07052",
+      "0xc3a6191cA568e2924B9797CCbc2f29d8a7243cEA"
+    ]
+  }
+}

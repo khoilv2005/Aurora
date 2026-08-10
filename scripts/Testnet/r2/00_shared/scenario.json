@@ -1,0 +1,5 @@
+{
+  "scenarioId": "r2_shared_infra",
+  "description": "Fresh R2 AuroraFullTestnet implementation, linked helper, and factory",
+  "sharedDeploymentKey": "aurora-r2"
+}

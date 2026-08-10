@@ -1,0 +1,17 @@
+{
+  "status": "reverted",
+  "phase": "registerIntent",
+  "reason": "Concurrent gas estimation observed a lower accumulator-frontier cost; the transaction was reverted and its fee is retained in the experiment ledger.",
+  "transaction": {
+    "txHash": "0x518585d1702b5e9fbbaf327a07d7c5408e77722a027acbddd10cee05b5ac6e95",
+    "txLink": "https://sepolia.etherscan.io/tx/0x518585d1702b5e9fbbaf327a07d7c5408e77722a027acbddd10cee05b5ac6e95",
+    "from": "0xB6363468E3Ff66361c37E08d33F3FEEACEaB4391",
+    "to": "0xB48F2f09c769Ae93a4bFD79BCAFAc9dF9Bc6C32d",
+    "gasUsed": "118303",
+    "effectiveGasPrice": "2609446070",
+    "gasCostWei": "308705298419210",
+    "blockNumber": 11384689,
+    "blockTimestamp": 1785442236,
+    "status": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "highlights": {
+    "registeredCount": "128",
+    "totalCommittedValueWei": "12800000000000000",
+    "paddedBatchSize": 128,
+    "root": "0xb7bce2ceacbf65c6d990841ba964325dd530b3c25cba1abd9b98d319ac51bddb"
+  },
+  "checks": [
+    {
+      "label": "zero amount",
+      "reverted": true,
+      "reason": "E50"
+    },
+    {
+      "label": "amount above Vmax",
+      "reverted": true,
+      "reason": "E50"
+    },
+    {
+      "label": "duplicate registration",
+      "reverted": true,
+      "reason": "E4"
+    },
+    {
+      "label": "reordered root",
+      "reverted": true,
+      "reason": "E53"
+    },
+    {
+      "label": "mutated leaf root",
+      "reverted": true,
+      "reason": "E53"
+    }
+  ]
+}

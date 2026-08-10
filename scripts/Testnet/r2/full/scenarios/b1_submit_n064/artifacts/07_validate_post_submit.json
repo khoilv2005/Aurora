@@ -1,0 +1,15 @@
+{
+  "highlights": {
+    "registeredCount": "64",
+    "totalCommittedValueWei": "6400000000000000",
+    "paddedBatchSize": "64",
+    "root": "0xda565e10dc3eff0e09c039115d1ae947537b03cd948439b1ff13035107b6e316"
+  },
+  "checks": [
+    {
+      "label": "post-submit registration",
+      "reverted": true,
+      "reason": "E2"
+    }
+  ]
+}

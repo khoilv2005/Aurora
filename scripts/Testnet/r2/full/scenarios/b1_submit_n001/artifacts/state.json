@@ -1,0 +1,27 @@
+{
+  "scenarioId": "b1_submit_n001",
+  "networkName": "sepolia",
+  "implementationAddress": "0x4C2AE5f5A5930b8A36A7828AbE826Cf5f6A64574",
+  "factoryAddress": "0xcD5884aF2F948F81cAd07B369C0bb505900E0d48",
+  "batchAddress": "0x95c6D88B1ECc349b1182F2eDCF65C42CAFcdC94F",
+  "proverAddress": "0x798B43A32C1aB1126e978f40D037DC490ad95bAB",
+  "verifierAddress": "0xE875A5cdFF44FA0990F8497d2dE9389d3A82748F",
+  "userAddresses": [
+    "0x219A9BA3aB4D4Db17a3394c8633F01962C592825"
+  ],
+  "setupDigest": "0xc4a91acde929133beb1d801e66cf8c318fa783aa9f93d2ef039bf5697d61a659",
+  "setupTimelock": "1893456000",
+  "setupRelTimelock": "2000",
+  "userProtectionPoolDepositWei": "100000000000000",
+  "expectedR2Root": "0x5445983f568951e74d4c4199eec6373fb2038916e25525437b57688835733f64",
+  "expectedR2PaddedSize": 1,
+  "expectedR2TotalWei": "100000000000000",
+  "currentMerkleRoot": "0x5445983f568951e74d4c4199eec6373fb2038916e25525437b57688835733f64",
+  "batchSize": 1,
+  "paddedBatchSize": 1,
+  "batchSubmitBlockTimestamp": 1785445812,
+  "submitGas": "245803",
+  "claimedUsersExecuted": 1,
+  "firstClaimGas": 109191,
+  "subsequentClaimGas": null
+}

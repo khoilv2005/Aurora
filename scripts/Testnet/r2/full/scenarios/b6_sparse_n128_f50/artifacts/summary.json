@@ -1,0 +1,143 @@
+{
+  "steps": [
+    {
+      "step": "01_deploy",
+      "recordedAt": "2026-07-30T20:51:31.440Z",
+      "artifact": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b6_sparse_n128_f50\\artifacts\\01_deploy.json",
+      "highlights": {
+        "implementationAddress": "0x4C2AE5f5A5930b8A36A7828AbE826Cf5f6A64574",
+        "implementationLink": "https://sepolia.etherscan.io/address/0x4C2AE5f5A5930b8A36A7828AbE826Cf5f6A64574",
+        "factoryAddress": "0xcD5884aF2F948F81cAd07B369C0bb505900E0d48",
+        "factoryLink": "https://sepolia.etherscan.io/address/0xcD5884aF2F948F81cAd07B369C0bb505900E0d48",
+        "batchAddress": "0x29D5ABFB1beb2aD63D4080b8E77Eb2841F7Fef82",
+        "batchLink": "https://sepolia.etherscan.io/address/0x29D5ABFB1beb2aD63D4080b8E77Eb2841F7Fef82",
+        "reusedSharedDeployment": true,
+        "sharedDeploymentKey": "aurora-r2"
+      }
+    },
+    {
+      "step": "02_fund_setup",
+      "recordedAt": "2026-07-30T20:52:10.082Z",
+      "artifact": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b6_sparse_n128_f50\\artifacts\\02_fund_setup.json",
+      "highlights": {
+        "batchAddress": "0x29D5ABFB1beb2aD63D4080b8E77Eb2841F7Fef82",
+        "batchLink": "https://sepolia.etherscan.io/address/0x29D5ABFB1beb2aD63D4080b8E77Eb2841F7Fef82",
+        "setupSkipped": false
+      }
+    },
+    {
+      "step": "03_register",
+      "recordedAt": "2026-07-30T20:54:48.559Z",
+      "artifact": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b6_sparse_n128_f50\\artifacts\\03_register.json",
+      "highlights": {
+        "registeredUsers": 128,
+        "protocolVersion": "r2",
+        "avgRegisterGas": 121528
+      }
+    },
+    {
+      "step": "04_deposit_pool",
+      "recordedAt": "2026-07-30T20:54:57.842Z",
+      "artifact": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b6_sparse_n128_f50\\artifacts\\04_deposit_pool.json",
+      "highlights": {
+        "depositedWei": "12800000000000000",
+        "depositedEth": "0.0128"
+      }
+    },
+    {
+      "step": "05_validate_pre_submit",
+      "recordedAt": "2026-07-30T20:55:07.010Z",
+      "artifact": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b6_sparse_n128_f50\\artifacts\\05_validate_pre_submit.json",
+      "highlights": {
+        "registeredCount": "128",
+        "totalCommittedValueWei": "12800000000000000",
+        "paddedBatchSize": 128,
+        "root": "0xcb9fc3ba3d6e7b48520eb68269508c1141e821ddec93a078d75a47083956a0ee"
+      }
+    },
+    {
+      "step": "06_submit_root",
+      "recordedAt": "2026-07-30T20:55:20.848Z",
+      "artifact": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b6_sparse_n128_f50\\artifacts\\06_submit_root.json",
+      "highlights": {
+        "merkleRoot": "0xcb9fc3ba3d6e7b48520eb68269508c1141e821ddec93a078d75a47083956a0ee",
+        "batchSize": 128,
+        "paddedBatchSize": 128,
+        "gasUsed": "246895",
+        "effectiveGasPrice": "2044549205",
+        "blobGasUsed": "131072",
+        "blobGasPrice": "62840372",
+        "executionFeeWei": "504788975968475",
+        "blobFeeWei": "8236613238784",
+        "totalFeeWei": "513025589207259",
+        "perUserGas": 1929,
+        "txHash": "0x5ed06e5a06f426b811d50a19f069cedf113656a4a20fdcc4a012ca13c9a1d9c0",
+        "txLink": "https://sepolia.etherscan.io/tx/0x5ed06e5a06f426b811d50a19f069cedf113656a4a20fdcc4a012ca13c9a1d9c0"
+      }
+    },
+    {
+      "step": "07_validate_post_submit",
+      "recordedAt": "2026-07-30T20:55:21.758Z",
+      "artifact": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b6_sparse_n128_f50\\artifacts\\07_validate_post_submit.json",
+      "highlights": {
+        "registeredCount": "128",
+        "totalCommittedValueWei": "12800000000000000",
+        "paddedBatchSize": "128",
+        "root": "0xcb9fc3ba3d6e7b48520eb68269508c1141e821ddec93a078d75a47083956a0ee"
+      }
+    },
+    {
+      "step": "08_wait_claim_phase",
+      "recordedAt": "2026-07-30T21:21:16.326Z",
+      "artifact": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b6_sparse_n128_f50\\artifacts\\08_wait_claim_phase.json",
+      "highlights": {
+        "kind": "claim",
+        "path": "path2",
+        "currentBlockTimestamp": 1785446496,
+        "targetTimestamp": 1785531348,
+        "remainingSeconds": 84852,
+        "remainingHours": 23.57,
+        "extensionCount": 0
+      }
+    },
+    {
+      "step": "09_claim",
+      "recordedAt": "2026-08-02T16:58:44.225Z",
+      "artifact": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b6_sparse_n128_f50\\artifacts\\09_claim.json",
+      "highlights": {
+        "claimed": 64,
+        "firstClaimGas": 86436,
+        "subsequentClaimGas": 86469,
+        "avgClaimGas": 87042
+      }
+    },
+    {
+      "step": "10_wait_settlement",
+      "recordedAt": "2026-08-02T17:01:16.063Z",
+      "artifact": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b6_sparse_n128_f50\\artifacts\\10_wait_settlement.json",
+      "highlights": {
+        "kind": "zero-claim-settle",
+        "path": "path2",
+        "currentBlockTimestamp": 1785690108,
+        "targetTimestamp": 1786136148,
+        "remainingSeconds": 446040,
+        "remainingHours": 123.9,
+        "extensionCount": 0
+      }
+    },
+    {
+      "step": "11_settle",
+      "recordedAt": "2026-08-08T02:55:27.241Z",
+      "artifact": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b6_sparse_n128_f50\\artifacts\\11_settle.json",
+      "highlights": {
+        "path": "path2",
+        "stateEventCodes": [
+          {
+            "code": "S8",
+            "label": "Settle Path 2 (partial claims)"
+          }
+        ]
+      }
+    }
+  ]
+}

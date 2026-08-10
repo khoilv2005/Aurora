@@ -1,0 +1,11 @@
+{
+  "highlights": {
+    "kind": "zero-claim-settle",
+    "path": "path2",
+    "currentBlockTimestamp": 1785690096,
+    "targetTimestamp": 1786136712,
+    "remainingSeconds": 446616,
+    "remainingHours": 124.06,
+    "extensionCount": 0
+  }
+}

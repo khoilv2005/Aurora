@@ -1,0 +1,198 @@
+{
+  "recordedAt": "2026-08-02T17:01:16.166Z",
+  "rootScenarioCount": 19,
+  "earliestSettlementTimestamp": 1786134708,
+  "latestSettlementTimestamp": 1786137312,
+  "scenarios": [
+    {
+      "scenarioId": "b1_submit_n001",
+      "kind": "zero-claim-settle",
+      "path": "path2",
+      "currentBlockTimestamp": 1785690096,
+      "targetTimestamp": 1786137012,
+      "remainingSeconds": 446916,
+      "remainingHours": 124.14,
+      "extensionCount": 0
+    },
+    {
+      "scenarioId": "b1_submit_n016",
+      "kind": "zero-claim-settle",
+      "path": "path2",
+      "currentBlockTimestamp": 1785690096,
+      "targetTimestamp": 1786136712,
+      "remainingSeconds": 446616,
+      "remainingHours": 124.06,
+      "extensionCount": 0
+    },
+    {
+      "scenarioId": "b1_submit_n064",
+      "kind": "zero-claim-settle",
+      "path": "path2",
+      "currentBlockTimestamp": 1785690096,
+      "targetTimestamp": 1786136316,
+      "remainingSeconds": 446220,
+      "remainingHours": 123.95,
+      "extensionCount": 0
+    },
+    {
+      "scenarioId": "b1_submit_n128",
+      "kind": "zero-claim-settle",
+      "path": "path2",
+      "currentBlockTimestamp": 1785690096,
+      "targetTimestamp": 1786134936,
+      "remainingSeconds": 444840,
+      "remainingHours": 123.57,
+      "extensionCount": 0
+    },
+    {
+      "scenarioId": "b2_lifecycle_n001",
+      "kind": "zero-claim-settle",
+      "path": "path2",
+      "currentBlockTimestamp": 1785690096,
+      "targetTimestamp": 1786137108,
+      "remainingSeconds": 447012,
+      "remainingHours": 124.17,
+      "extensionCount": 0
+    },
+    {
+      "scenarioId": "b2_lifecycle_n016",
+      "kind": "zero-claim-settle",
+      "path": "path2",
+      "currentBlockTimestamp": 1785690096,
+      "targetTimestamp": 1786136820,
+      "remainingSeconds": 446724,
+      "remainingHours": 124.09,
+      "extensionCount": 0
+    },
+    {
+      "scenarioId": "b2_lifecycle_n064",
+      "kind": "zero-claim-settle",
+      "path": "path2",
+      "currentBlockTimestamp": 1785690096,
+      "targetTimestamp": 1786136460,
+      "remainingSeconds": 446364,
+      "remainingHours": 123.99,
+      "extensionCount": 0
+    },
+    {
+      "scenarioId": "b2_lifecycle_n128",
+      "kind": "zero-claim-settle",
+      "path": "path2",
+      "currentBlockTimestamp": 1785690096,
+      "targetTimestamp": 1786135080,
+      "remainingSeconds": 444984,
+      "remainingHours": 123.61,
+      "extensionCount": 0
+    },
+    {
+      "scenarioId": "b3_rejection_successor",
+      "kind": "zero-claim-settle",
+      "path": "path2",
+      "currentBlockTimestamp": 1785690096,
+      "targetTimestamp": 1786137204,
+      "remainingSeconds": 447108,
+      "remainingHours": 124.2,
+      "extensionCount": 0
+    },
+    {
+      "scenarioId": "b4_path2b",
+      "kind": "zero-claim-settle",
+      "path": "path2b",
+      "currentBlockTimestamp": 1785690096,
+      "targetTimestamp": 1786137312,
+      "remainingSeconds": 447216,
+      "remainingHours": 124.23,
+      "extensionCount": 0
+    },
+    {
+      "scenarioId": "b5_sparse_n128_f10",
+      "kind": "zero-claim-settle",
+      "path": "path2",
+      "currentBlockTimestamp": 1785690096,
+      "targetTimestamp": 1786135248,
+      "remainingSeconds": 445152,
+      "remainingHours": 123.65,
+      "extensionCount": 0
+    },
+    {
+      "scenarioId": "b5_sparse_n128_f25",
+      "kind": "zero-claim-settle",
+      "path": "path2",
+      "currentBlockTimestamp": 1785690108,
+      "targetTimestamp": 1786135428,
+      "remainingSeconds": 445320,
+      "remainingHours": 123.7,
+      "extensionCount": 0
+    },
+    {
+      "scenarioId": "b5_sparse_n128_f50",
+      "kind": "zero-claim-settle",
+      "path": "path2",
+      "currentBlockTimestamp": 1785690108,
+      "targetTimestamp": 1786135572,
+      "remainingSeconds": 445464,
+      "remainingHours": 123.74,
+      "extensionCount": 0
+    },
+    {
+      "scenarioId": "b5_sparse_n128_f75",
+      "kind": "zero-claim-settle",
+      "path": "path2",
+      "currentBlockTimestamp": 1785690108,
+      "targetTimestamp": 1786135740,
+      "remainingSeconds": 445632,
+      "remainingHours": 123.79,
+      "extensionCount": 0
+    },
+    {
+      "scenarioId": "b5_sparse_n128_f100",
+      "kind": "zero-claim-settle",
+      "path": "path2",
+      "currentBlockTimestamp": 1785690108,
+      "targetTimestamp": 1786135908,
+      "remainingSeconds": 445800,
+      "remainingHours": 123.83,
+      "extensionCount": 0
+    },
+    {
+      "scenarioId": "b6_sparse_n016_f50",
+      "kind": "zero-claim-settle",
+      "path": "path2",
+      "currentBlockTimestamp": 1785690108,
+      "targetTimestamp": 1786136916,
+      "remainingSeconds": 446808,
+      "remainingHours": 124.11,
+      "extensionCount": 0
+    },
+    {
+      "scenarioId": "b6_sparse_n064_f50",
+      "kind": "zero-claim-settle",
+      "path": "path2",
+      "currentBlockTimestamp": 1785690108,
+      "targetTimestamp": 1786136616,
+      "remainingSeconds": 446508,
+      "remainingHours": 124.03,
+      "extensionCount": 0
+    },
+    {
+      "scenarioId": "b6_sparse_n128_f50",
+      "kind": "zero-claim-settle",
+      "path": "path2",
+      "currentBlockTimestamp": 1785690108,
+      "targetTimestamp": 1786136148,
+      "remainingSeconds": 446040,
+      "remainingHours": 123.9,
+      "extensionCount": 0
+    },
+    {
+      "scenarioId": "b6_sparse_n256_f50",
+      "kind": "zero-claim-settle",
+      "path": "path2",
+      "currentBlockTimestamp": 1785690108,
+      "targetTimestamp": 1786134708,
+      "remainingSeconds": 444600,
+      "remainingHours": 123.5,
+      "extensionCount": 0
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "deployer": {
+    "address": "0xE875A5cdFF44FA0990F8497d2dE9389d3A82748F",
+    "source": "hardhat-signer"
+  },
+  "prover": {
+    "address": "0x798B43A32C1aB1126e978f40D037DC490ad95bAB",
+    "source": "env"
+  },
+  "verifier": {
+    "address": "0xE875A5cdFF44FA0990F8497d2dE9389d3A82748F",
+    "source": "env"
+  },
+  "users": [],
+  "sharedActorPool": "r2-full",
+  "sharedActorPoolSize": 256
+}

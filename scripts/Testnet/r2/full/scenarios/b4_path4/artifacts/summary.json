@@ -1,0 +1,59 @@
+{
+  "steps": [
+    {
+      "step": "01_deploy",
+      "recordedAt": "2026-07-30T21:18:45.868Z",
+      "artifact": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b4_path4\\artifacts\\01_deploy.json",
+      "highlights": {
+        "implementationAddress": "0x4C2AE5f5A5930b8A36A7828AbE826Cf5f6A64574",
+        "implementationLink": "https://sepolia.etherscan.io/address/0x4C2AE5f5A5930b8A36A7828AbE826Cf5f6A64574",
+        "factoryAddress": "0xcD5884aF2F948F81cAd07B369C0bb505900E0d48",
+        "factoryLink": "https://sepolia.etherscan.io/address/0xcD5884aF2F948F81cAd07B369C0bb505900E0d48",
+        "batchAddress": "0x4D9eE68E86b928D9e67B0A8fe4476773d16484cF",
+        "batchLink": "https://sepolia.etherscan.io/address/0x4D9eE68E86b928D9e67B0A8fe4476773d16484cF",
+        "reusedSharedDeployment": true,
+        "sharedDeploymentKey": "aurora-r2"
+      }
+    },
+    {
+      "step": "02_fund_setup",
+      "recordedAt": "2026-07-30T21:19:21.078Z",
+      "artifact": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b4_path4\\artifacts\\02_fund_setup.json",
+      "highlights": {
+        "batchAddress": "0x4D9eE68E86b928D9e67B0A8fe4476773d16484cF",
+        "batchLink": "https://sepolia.etherscan.io/address/0x4D9eE68E86b928D9e67B0A8fe4476773d16484cF",
+        "setupSkipped": false
+      }
+    },
+    {
+      "step": "03_open_dispute",
+      "recordedAt": "2026-07-30T21:19:34.156Z",
+      "artifact": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b4_path4\\artifacts\\03_open_dispute.json",
+      "highlights": {
+        "disputeVector": "future"
+      }
+    },
+    {
+      "step": "04_resolve_invalid",
+      "recordedAt": "2026-07-30T21:19:47.234Z",
+      "artifact": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b4_path4\\artifacts\\04_resolve_invalid.json",
+      "highlights": {
+        "path": "4"
+      }
+    },
+    {
+      "step": "05_settle",
+      "recordedAt": "2026-07-30T21:20:00.799Z",
+      "artifact": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b4_path4\\artifacts\\05_settle.json",
+      "highlights": {
+        "path": "path4",
+        "stateEventCodes": [
+          {
+            "code": "S11",
+            "label": "Settle Path 4 (revocation)"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "networkName": "sepolia",
+  "sharedDeploymentKey": "aurora-r2",
+  "libAddress": "0x8E179B9fa35BD691BC7dD697236b50e2E11DF950",
+  "implementationAddress": "0x4C2AE5f5A5930b8A36A7828AbE826Cf5f6A64574",
+  "factoryAddress": "0xcD5884aF2F948F81cAd07B369C0bb505900E0d48",
+  "libDeployTxHash": "0xbaf337d1c2e206924b891b4c0b337060a577712db20cfa1b0f911e5830af2b58",
+  "implementationDeployTxHash": "0x93f1834e50dff7f0d65835f04c6a84f64a703ba323f3c1ed613ea72a87ec1c37",
+  "factoryDeployTxHash": "0x70efd8a4febc25e32c0bd371afb58d056de65f27f7510dafe80c49b4aa2de389",
+  "recordedAt": "2026-07-29T18:17:23.243Z"
+}

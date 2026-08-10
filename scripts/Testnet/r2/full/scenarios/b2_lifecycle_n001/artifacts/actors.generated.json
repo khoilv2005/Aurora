@@ -1,0 +1,22 @@
+{
+  "deployer": {
+    "address": "0xE875A5cdFF44FA0990F8497d2dE9389d3A82748F",
+    "source": "hardhat-signer"
+  },
+  "prover": {
+    "address": "0x798B43A32C1aB1126e978f40D037DC490ad95bAB",
+    "source": "env"
+  },
+  "verifier": {
+    "address": "0xE875A5cdFF44FA0990F8497d2dE9389d3A82748F",
+    "source": "env"
+  },
+  "users": [
+    {
+      "address": "0x219A9BA3aB4D4Db17a3394c8633F01962C592825",
+      "source": "generated"
+    }
+  ],
+  "sharedActorPool": "r2-full",
+  "sharedActorPoolSize": 256
+}

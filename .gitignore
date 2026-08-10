@@ -1,0 +1,23 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+
+# Dependencies and Hardhat build outputs
+/node_modules/
+/artifacts/
+/cache/
+/coverage/
+/typechain/
+/typechain-types/
+
+# Local runtime files
+*.log
+*.pid
+*.tmp
+.DS_Store
+Thumbs.db
+__pycache__/
+*.py[cod]
+
+# Keep the committed Sepolia execution artifacts under scripts/Testnet/r2/.

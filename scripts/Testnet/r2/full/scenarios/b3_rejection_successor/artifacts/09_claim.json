@@ -1,0 +1,45 @@
+{
+  "highlights": {
+    "claimed": 1,
+    "firstClaimGas": 109191,
+    "subsequentClaimGas": null,
+    "avgClaimGas": 109191
+  },
+  "transactions": [
+    {
+      "label": "claim:0",
+      "txHash": "0xf12ebb61036118a69a5b2826c01d79e99329b784a5ddf396990183c66da29fdf",
+      "txLink": "https://sepolia.etherscan.io/tx/0xf12ebb61036118a69a5b2826c01d79e99329b784a5ddf396990183c66da29fdf",
+      "from": "0x219A9BA3aB4D4Db17a3394c8633F01962C592825",
+      "to": "0x4089F88D712229Ea54EeB413aCD8F08Ef4c0d2cC",
+      "gasUsed": "109191",
+      "effectiveGasPrice": "3007836680",
+      "gasCostWei": "328428694925880",
+      "blockNumber": 11404662,
+      "blockTimestamp": 1785689352,
+      "latencyMs": 12599,
+      "status": 1,
+      "eventNames": [
+        "userPaid",
+        "leafClaimed"
+      ]
+    }
+  ],
+  "claimFundingTransactions": [
+    {
+      "label": "fundSharedUser:0x219A9BA3aB4D4Db17a3394c8633F01962C592825",
+      "txHash": "0xf29500bd5e5c68e70a478b1127aae8c6aca9cb0917df861ea647ee87822f7e86",
+      "txLink": "https://sepolia.etherscan.io/tx/0xf29500bd5e5c68e70a478b1127aae8c6aca9cb0917df861ea647ee87822f7e86",
+      "from": "0xE875A5cdFF44FA0990F8497d2dE9389d3A82748F",
+      "to": "0x219A9BA3aB4D4Db17a3394c8633F01962C592825",
+      "gasUsed": "21000",
+      "effectiveGasPrice": "1206765639",
+      "gasCostWei": "25342078419000",
+      "blockNumber": 11404661,
+      "blockTimestamp": 1785689340,
+      "latencyMs": 8246,
+      "status": 1,
+      "eventNames": []
+    }
+  ]
+}

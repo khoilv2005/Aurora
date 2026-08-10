@@ -1,0 +1,40 @@
+{
+  "highlights": {
+    "path": "path4",
+    "stateEventCodes": [
+      {
+        "code": "S11",
+        "label": "Settle Path 4 (revocation)"
+      }
+    ]
+  },
+  "balancesBefore": {
+    "prover": "366933329185820479",
+    "verifier": "2864265657627593079",
+    "batch": "40000000000000000"
+  },
+  "balancesAfter": {
+    "prover": "366759515032812999",
+    "verifier": "2904265657627593079",
+    "batch": "0"
+  },
+  "transactions": [
+    {
+      "label": "settle",
+      "txHash": "0x130acde40ae0b7638b4de367ac724664fe377c16b858f66a816e101eb779b81c",
+      "txLink": "https://sepolia.etherscan.io/tx/0x130acde40ae0b7638b4de367ac724664fe377c16b858f66a816e101eb779b81c",
+      "from": "0x798B43A32C1aB1126e978f40D037DC490ad95bAB",
+      "to": "0x4D9eE68E86b928D9e67B0A8fe4476773d16484cF",
+      "gasUsed": "68708",
+      "effectiveGasPrice": "2529751310",
+      "gasCostWei": "173814153007480",
+      "blockNumber": 11385028,
+      "blockTimestamp": 1785446424,
+      "latencyMs": 12800,
+      "status": 1,
+      "eventNames": [
+        "stateEvent"
+      ]
+    }
+  ]
+}

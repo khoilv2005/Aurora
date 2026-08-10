@@ -1,0 +1,19 @@
+{
+  "root": "0x73c375f114c7ee584e22ba1de5d407780672f1147aaa3e7d572b9dc7589f36db",
+  "tree": [
+    [
+      "0x73c375f114c7ee584e22ba1de5d407780672f1147aaa3e7d572b9dc7589f36db"
+    ]
+  ],
+  "leaves": [
+    {
+      "index": 0,
+      "addr": "0x219A9BA3aB4D4Db17a3394c8633F01962C592825",
+      "amount": "100000000000000",
+      "obligationCommitment": "0x10b277c71e6fa80eb68ebf125c6b98b9b14716723e1496c262b964043ff1ec6d",
+      "isInvalid": false,
+      "proof": []
+    }
+  ],
+  "submitBlockTimestamp": 1785446112
+}

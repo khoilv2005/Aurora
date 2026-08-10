@@ -1,0 +1,40 @@
+{
+  "highlights": {
+    "path": "path5",
+    "stateEventCodes": [
+      {
+        "code": "S12",
+        "label": "Settle Path 5 (no setup)"
+      }
+    ]
+  },
+  "balancesBefore": {
+    "prover": "346530582698984815",
+    "verifier": "2883956480739190598",
+    "batch": "40000000000000000"
+  },
+  "balancesAfter": {
+    "prover": "366325762212792444",
+    "verifier": "2903956480739190598",
+    "batch": "0"
+  },
+  "transactions": [
+    {
+      "label": "settle",
+      "txHash": "0x1526c3e761942ce0edab00ed7ca74d330e044cad14213457764b5592b0b8c716",
+      "txLink": "https://sepolia.etherscan.io/tx/0x1526c3e761942ce0edab00ed7ca74d330e044cad14213457764b5592b0b8c716",
+      "from": "0x798B43A32C1aB1126e978f40D037DC490ad95bAB",
+      "to": "0x138DBFd81cc78E27DB360FaA9762C2CDB57A4F8d",
+      "gasUsed": "79961",
+      "effectiveGasPrice": "2561504811",
+      "gasCostWei": "204820486192371",
+      "blockNumber": 11385032,
+      "blockTimestamp": 1785446472,
+      "latencyMs": 12749,
+      "status": 1,
+      "eventNames": [
+        "stateEvent"
+      ]
+    }
+  ]
+}

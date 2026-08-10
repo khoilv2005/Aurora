@@ -1,0 +1,11 @@
+{
+  "highlights": {
+    "kind": "claim",
+    "path": "path2",
+    "currentBlockTimestamp": 1785446496,
+    "targetTimestamp": 1785531660,
+    "remainingSeconds": 85164,
+    "remainingHours": 23.66,
+    "extensionCount": 0
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "steps": [
+    {
+      "step": "01_deploy",
+      "recordedAt": "2026-07-30T21:20:09.590Z",
+      "artifact": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b4_path5\\artifacts\\01_deploy.json",
+      "highlights": {
+        "implementationAddress": "0x4C2AE5f5A5930b8A36A7828AbE826Cf5f6A64574",
+        "implementationLink": "https://sepolia.etherscan.io/address/0x4C2AE5f5A5930b8A36A7828AbE826Cf5f6A64574",
+        "factoryAddress": "0xcD5884aF2F948F81cAd07B369C0bb505900E0d48",
+        "factoryLink": "https://sepolia.etherscan.io/address/0xcD5884aF2F948F81cAd07B369C0bb505900E0d48",
+        "batchAddress": "0x138DBFd81cc78E27DB360FaA9762C2CDB57A4F8d",
+        "batchLink": "https://sepolia.etherscan.io/address/0x138DBFd81cc78E27DB360FaA9762C2CDB57A4F8d",
+        "reusedSharedDeployment": true,
+        "sharedDeploymentKey": "aurora-r2"
+      }
+    },
+    {
+      "step": "02_lock_only",
+      "recordedAt": "2026-07-30T21:20:31.856Z",
+      "artifact": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b4_path5\\artifacts\\02_lock_only.json",
+      "highlights": {
+        "batchAddress": "0x138DBFd81cc78E27DB360FaA9762C2CDB57A4F8d",
+        "batchLink": "https://sepolia.etherscan.io/address/0x138DBFd81cc78E27DB360FaA9762C2CDB57A4F8d",
+        "setupSkipped": true
+      }
+    },
+    {
+      "step": "03_settle",
+      "recordedAt": "2026-07-30T21:20:45.377Z",
+      "artifact": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b4_path5\\artifacts\\03_settle.json",
+      "highlights": {
+        "path": "path5",
+        "stateEventCodes": [
+          {
+            "code": "S12",
+            "label": "Settle Path 5 (no setup)"
+          }
+        ]
+      }
+    }
+  ]
+}

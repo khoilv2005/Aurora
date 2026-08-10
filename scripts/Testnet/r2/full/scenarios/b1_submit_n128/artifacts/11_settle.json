@@ -1,0 +1,41 @@
+{
+  "highlights": {
+    "path": "path2",
+    "stateEventCodes": [
+      {
+        "code": "S8",
+        "label": "Settle Path 2 (partial claims)"
+      }
+    ]
+  },
+  "balancesBefore": {
+    "prover": "2908786129783842791",
+    "verifier": "2796763812059781698",
+    "batch": "52700000000000000"
+  },
+  "balancesAfter": {
+    "prover": "2908854164387099189",
+    "verifier": "2836451312059781698",
+    "batch": "0"
+  },
+  "transactions": [
+    {
+      "label": "settle",
+      "txHash": "0xbdf399e13b6129e85745555928c2d1079b32e18a05525859d8e531406794cd54",
+      "txLink": "https://sepolia.etherscan.io/tx/0xbdf399e13b6129e85745555928c2d1079b32e18a05525859d8e531406794cd54",
+      "from": "0x798B43A32C1aB1126e978f40D037DC490ad95bAB",
+      "to": "0xB5208cD3087a18cc839d3Ef20d1937000a773A73",
+      "gasUsed": "95287",
+      "effectiveGasPrice": "2565569246",
+      "gasCostWei": "244465396743602",
+      "blockNumber": 11442457,
+      "blockTimestamp": 1786157568,
+      "latencyMs": 8823,
+      "status": 1,
+      "eventNames": [
+        "userPoolBurned",
+        "stateEvent"
+      ]
+    }
+  ]
+}

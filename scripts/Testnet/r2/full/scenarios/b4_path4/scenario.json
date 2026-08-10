@@ -1,0 +1,18 @@
+{
+  "scenarioId": "b4_path4",
+  "description": "B4: path4 settlement path",
+  "protocolVersion": "r2",
+  "sharedDeploymentKey": "aurora-r2",
+  "sharedActorPool": "r2-full",
+  "sharedActorPoolSize": 256,
+  "leafAmountEth": "0.0001",
+  "proverFundingEth": "0.02",
+  "verifierFundingEth": "0.02",
+  "userFundingEth": "0.003",
+  "gasBufferEth": "0.002",
+  "sharedUserMinimumEth": "0.001",
+  "txParallelism": 24,
+  "batchSize": 0,
+  "userCount": 0,
+  "path": "path4"
+}

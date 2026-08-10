@@ -1,0 +1,16 @@
+{
+  "scenarioId": "r2_n003",
+  "description": "R2 n=3 full lifecycle and negative-path validation",
+  "protocolVersion": "r2",
+  "sharedDeploymentKey": "aurora-r2",
+  "batchSize": 3,
+  "userCount": 3,
+  "leafAmountEth": "0.001",
+  "proverFundingEth": "0.02",
+  "verifierFundingEth": "0.02",
+  "userFundingEth": "0.015",
+  "gasBufferEth": "0.005",
+  "depositUserPoolEth": "0.003",
+  "claimCount": 3,
+  "path": "path2"
+}

@@ -1,0 +1,198 @@
+{
+  "recordedAt": "2026-07-30T21:21:16.420Z",
+  "rootScenarioCount": 19,
+  "earliestClaimTimestamp": 1785529908,
+  "latestClaimTimestamp": 1785532512,
+  "scenarios": [
+    {
+      "scenarioId": "b1_submit_n001",
+      "kind": "claim",
+      "path": "path2",
+      "currentBlockTimestamp": 1785446496,
+      "targetTimestamp": 1785532212,
+      "remainingSeconds": 85716,
+      "remainingHours": 23.81,
+      "extensionCount": 0
+    },
+    {
+      "scenarioId": "b1_submit_n016",
+      "kind": "claim",
+      "path": "path2",
+      "currentBlockTimestamp": 1785446496,
+      "targetTimestamp": 1785531912,
+      "remainingSeconds": 85416,
+      "remainingHours": 23.73,
+      "extensionCount": 0
+    },
+    {
+      "scenarioId": "b1_submit_n064",
+      "kind": "claim",
+      "path": "path2",
+      "currentBlockTimestamp": 1785446496,
+      "targetTimestamp": 1785531516,
+      "remainingSeconds": 85020,
+      "remainingHours": 23.62,
+      "extensionCount": 0
+    },
+    {
+      "scenarioId": "b1_submit_n128",
+      "kind": "claim",
+      "path": "path2",
+      "currentBlockTimestamp": 1785446496,
+      "targetTimestamp": 1785530136,
+      "remainingSeconds": 83640,
+      "remainingHours": 23.23,
+      "extensionCount": 0
+    },
+    {
+      "scenarioId": "b2_lifecycle_n001",
+      "kind": "claim",
+      "path": "path2",
+      "currentBlockTimestamp": 1785446496,
+      "targetTimestamp": 1785532308,
+      "remainingSeconds": 85812,
+      "remainingHours": 23.84,
+      "extensionCount": 0
+    },
+    {
+      "scenarioId": "b2_lifecycle_n016",
+      "kind": "claim",
+      "path": "path2",
+      "currentBlockTimestamp": 1785446496,
+      "targetTimestamp": 1785532020,
+      "remainingSeconds": 85524,
+      "remainingHours": 23.76,
+      "extensionCount": 0
+    },
+    {
+      "scenarioId": "b2_lifecycle_n064",
+      "kind": "claim",
+      "path": "path2",
+      "currentBlockTimestamp": 1785446496,
+      "targetTimestamp": 1785531660,
+      "remainingSeconds": 85164,
+      "remainingHours": 23.66,
+      "extensionCount": 0
+    },
+    {
+      "scenarioId": "b2_lifecycle_n128",
+      "kind": "claim",
+      "path": "path2",
+      "currentBlockTimestamp": 1785446496,
+      "targetTimestamp": 1785530280,
+      "remainingSeconds": 83784,
+      "remainingHours": 23.27,
+      "extensionCount": 0
+    },
+    {
+      "scenarioId": "b3_rejection_successor",
+      "kind": "claim",
+      "path": "path2",
+      "currentBlockTimestamp": 1785446496,
+      "targetTimestamp": 1785532404,
+      "remainingSeconds": 85908,
+      "remainingHours": 23.86,
+      "extensionCount": 0
+    },
+    {
+      "scenarioId": "b4_path2b",
+      "kind": "claim",
+      "path": "path2b",
+      "currentBlockTimestamp": 1785446496,
+      "targetTimestamp": 1785532512,
+      "remainingSeconds": 86016,
+      "remainingHours": 23.89,
+      "extensionCount": 0
+    },
+    {
+      "scenarioId": "b5_sparse_n128_f10",
+      "kind": "claim",
+      "path": "path2",
+      "currentBlockTimestamp": 1785446496,
+      "targetTimestamp": 1785530448,
+      "remainingSeconds": 83952,
+      "remainingHours": 23.32,
+      "extensionCount": 0
+    },
+    {
+      "scenarioId": "b5_sparse_n128_f25",
+      "kind": "claim",
+      "path": "path2",
+      "currentBlockTimestamp": 1785446496,
+      "targetTimestamp": 1785530628,
+      "remainingSeconds": 84132,
+      "remainingHours": 23.37,
+      "extensionCount": 0
+    },
+    {
+      "scenarioId": "b5_sparse_n128_f50",
+      "kind": "claim",
+      "path": "path2",
+      "currentBlockTimestamp": 1785446496,
+      "targetTimestamp": 1785530772,
+      "remainingSeconds": 84276,
+      "remainingHours": 23.41,
+      "extensionCount": 0
+    },
+    {
+      "scenarioId": "b5_sparse_n128_f75",
+      "kind": "claim",
+      "path": "path2",
+      "currentBlockTimestamp": 1785446496,
+      "targetTimestamp": 1785530940,
+      "remainingSeconds": 84444,
+      "remainingHours": 23.46,
+      "extensionCount": 0
+    },
+    {
+      "scenarioId": "b5_sparse_n128_f100",
+      "kind": "claim",
+      "path": "path2",
+      "currentBlockTimestamp": 1785446496,
+      "targetTimestamp": 1785531108,
+      "remainingSeconds": 84612,
+      "remainingHours": 23.5,
+      "extensionCount": 0
+    },
+    {
+      "scenarioId": "b6_sparse_n016_f50",
+      "kind": "claim",
+      "path": "path2",
+      "currentBlockTimestamp": 1785446496,
+      "targetTimestamp": 1785532116,
+      "remainingSeconds": 85620,
+      "remainingHours": 23.78,
+      "extensionCount": 0
+    },
+    {
+      "scenarioId": "b6_sparse_n064_f50",
+      "kind": "claim",
+      "path": "path2",
+      "currentBlockTimestamp": 1785446496,
+      "targetTimestamp": 1785531816,
+      "remainingSeconds": 85320,
+      "remainingHours": 23.7,
+      "extensionCount": 0
+    },
+    {
+      "scenarioId": "b6_sparse_n128_f50",
+      "kind": "claim",
+      "path": "path2",
+      "currentBlockTimestamp": 1785446496,
+      "targetTimestamp": 1785531348,
+      "remainingSeconds": 84852,
+      "remainingHours": 23.57,
+      "extensionCount": 0
+    },
+    {
+      "scenarioId": "b6_sparse_n256_f50",
+      "kind": "claim",
+      "path": "path2",
+      "currentBlockTimestamp": 1785446496,
+      "targetTimestamp": 1785529908,
+      "remainingSeconds": 83412,
+      "remainingHours": 23.17,
+      "extensionCount": 0
+    }
+  ]
+}

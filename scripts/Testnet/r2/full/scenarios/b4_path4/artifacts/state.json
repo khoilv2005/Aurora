@@ -1,0 +1,13 @@
+{
+  "scenarioId": "b4_path4",
+  "networkName": "sepolia",
+  "implementationAddress": "0x4C2AE5f5A5930b8A36A7828AbE826Cf5f6A64574",
+  "factoryAddress": "0xcD5884aF2F948F81cAd07B369C0bb505900E0d48",
+  "batchAddress": "0x4D9eE68E86b928D9e67B0A8fe4476773d16484cF",
+  "proverAddress": "0x798B43A32C1aB1126e978f40D037DC490ad95bAB",
+  "verifierAddress": "0xE875A5cdFF44FA0990F8497d2dE9389d3A82748F",
+  "userAddresses": [],
+  "setupDigest": "0xc4a91acde929133beb1d801e66cf8c318fa783aa9f93d2ef039bf5697d61a659",
+  "setupTimelock": "1893456000",
+  "setupRelTimelock": "2000"
+}

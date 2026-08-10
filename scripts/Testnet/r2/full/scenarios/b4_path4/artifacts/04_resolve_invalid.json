@@ -1,0 +1,24 @@
+{
+  "highlights": {
+    "path": "4"
+  },
+  "transactions": [
+    {
+      "label": "resolveInvalidDispute",
+      "txHash": "0xf27ee1ff6e440fd6d5a3f667905f6523791e4cb621b19037e8e7d5c6acd07fea",
+      "txLink": "https://sepolia.etherscan.io/tx/0xf27ee1ff6e440fd6d5a3f667905f6523791e4cb621b19037e8e7d5c6acd07fea",
+      "from": "0x798B43A32C1aB1126e978f40D037DC490ad95bAB",
+      "to": "0x4D9eE68E86b928D9e67B0A8fe4476773d16484cF",
+      "gasUsed": "40529",
+      "effectiveGasPrice": "2451172834",
+      "gasCostWei": "99343583789186",
+      "blockNumber": 11385027,
+      "blockTimestamp": 1785446412,
+      "latencyMs": 12880,
+      "status": 1,
+      "eventNames": [
+        "stateEvent"
+      ]
+    }
+  ]
+}

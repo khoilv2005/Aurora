@@ -1,0 +1,59 @@
+{
+  "highlights": {
+    "batchAddress": "0x378697EF75fe6862eAE3416A6154bc7D7d6b87f8",
+    "batchLink": "https://sepolia.etherscan.io/address/0x378697EF75fe6862eAE3416A6154bc7D7d6b87f8",
+    "setupSkipped": false
+  },
+  "balancesAfter": {
+    "prover": "496794364123039446",
+    "verifier": "2913390151905310680",
+    "batch": "40000000000000000"
+  },
+  "transactions": [
+    {
+      "label": "lockProver",
+      "txHash": "0x924101910308a20ed7e0f0ccf7c483bc9f9dbdc34bc6e7440d39017026d0cc05",
+      "txLink": "https://sepolia.etherscan.io/tx/0x924101910308a20ed7e0f0ccf7c483bc9f9dbdc34bc6e7440d39017026d0cc05",
+      "from": "0x798B43A32C1aB1126e978f40D037DC490ad95bAB",
+      "to": "0x378697EF75fe6862eAE3416A6154bc7D7d6b87f8",
+      "gasUsed": "92332",
+      "effectiveGasPrice": "2582564972",
+      "gasCostWei": "238453388994704",
+      "blockNumber": 11384979,
+      "blockTimestamp": 1785445836,
+      "latencyMs": 12833,
+      "status": 1,
+      "eventNames": []
+    },
+    {
+      "label": "lockVerifier",
+      "txHash": "0x62b99ec229aaacb7f174e13203bd9269fc3fee9892f776a1daac022421256577",
+      "txLink": "https://sepolia.etherscan.io/tx/0x62b99ec229aaacb7f174e13203bd9269fc3fee9892f776a1daac022421256577",
+      "from": "0xE875A5cdFF44FA0990F8497d2dE9389d3A82748F",
+      "to": "0x378697EF75fe6862eAE3416A6154bc7D7d6b87f8",
+      "gasUsed": "55332",
+      "effectiveGasPrice": "2528336573",
+      "gasCostWei": "139897919257236",
+      "blockNumber": 11384980,
+      "blockTimestamp": 1785445848,
+      "latencyMs": 16796,
+      "status": 1,
+      "eventNames": []
+    },
+    {
+      "label": "setup",
+      "txHash": "0x5426607deae0344db5497cc9f65b41ef3684c8586914e400a122643fa31dd545",
+      "txLink": "https://sepolia.etherscan.io/tx/0x5426607deae0344db5497cc9f65b41ef3684c8586914e400a122643fa31dd545",
+      "from": "0x798B43A32C1aB1126e978f40D037DC490ad95bAB",
+      "to": "0x378697EF75fe6862eAE3416A6154bc7D7d6b87f8",
+      "gasUsed": "397272",
+      "effectiveGasPrice": "2477896078",
+      "gasCostWei": "984398730699216",
+      "blockNumber": 11384981,
+      "blockTimestamp": 1785445860,
+      "latencyMs": 8805,
+      "status": 1,
+      "eventNames": []
+    }
+  ]
+}

@@ -1,0 +1,460 @@
+{
+  "generatedAt": "2026-08-08T03:23:56.756Z",
+  "metricDefinition": "All values are Sepolia transaction gasUsed. ETH-denominated fees are preserved only as raw artifact fields and are not used for gas comparisons.",
+  "completion": {
+    "rootScenarioCount": 19,
+    "claimedObligations": 779,
+    "path2Settlements": 19,
+    "directPathCount": 5,
+    "finalTransactionCount": 3677,
+    "revertedTransactionCount": 1,
+    "finalLedgerSource": "scripts/Testnet/r2/full/scenarios/gas-ledger-final.json"
+  },
+  "rootSubmission": [
+    {
+      "scenarioId": "b1_submit_n001",
+      "n": 1,
+      "paddedN": 1,
+      "registrationAverageGas": 168959,
+      "registrationCount": 1,
+      "rootSubmissionGas": 245803,
+      "rootExecutionFeeWei": "498911295147966",
+      "blobFeeWei": "7501546258432",
+      "sources": [
+        "scripts/Testnet/r2/full/scenarios/b1_submit_n001/artifacts/03_register.json",
+        "scripts/Testnet/r2/full/scenarios/b1_submit_n001/artifacts/06_submit_root.json"
+      ]
+    },
+    {
+      "scenarioId": "b1_submit_n016",
+      "n": 16,
+      "paddedN": 16,
+      "registrationAverageGas": 127533,
+      "registrationCount": 16,
+      "rootSubmissionGas": 246427,
+      "rootExecutionFeeWei": "478736798944734",
+      "blobFeeWei": "7643115945984",
+      "sources": [
+        "scripts/Testnet/r2/full/scenarios/b1_submit_n016/artifacts/03_register.json",
+        "scripts/Testnet/r2/full/scenarios/b1_submit_n016/artifacts/06_submit_root.json"
+      ]
+    },
+    {
+      "scenarioId": "b1_submit_n064",
+      "n": 64,
+      "paddedN": 64,
+      "registrationAverageGas": 122576,
+      "registrationCount": 64,
+      "rootSubmissionGas": 246739,
+      "rootExecutionFeeWei": "523593850534066",
+      "blobFeeWei": "8114336169984",
+      "sources": [
+        "scripts/Testnet/r2/full/scenarios/b1_submit_n064/artifacts/03_register.json",
+        "scripts/Testnet/r2/full/scenarios/b1_submit_n064/artifacts/06_submit_root.json"
+      ]
+    },
+    {
+      "scenarioId": "b1_submit_n128",
+      "n": 128,
+      "paddedN": 128,
+      "registrationAverageGas": 121528,
+      "registrationCount": 128,
+      "rootSubmissionGas": 246895,
+      "rootExecutionFeeWei": "501857673602615",
+      "blobFeeWei": "8360746024960",
+      "sources": [
+        "scripts/Testnet/r2/full/scenarios/b1_submit_n128/artifacts/03_register.json",
+        "scripts/Testnet/r2/full/scenarios/b1_submit_n128/artifacts/06_submit_root.json"
+      ]
+    },
+    {
+      "scenarioId": "b6_sparse_n256_f50",
+      "n": 256,
+      "paddedN": 256,
+      "registrationAverageGas": 120937,
+      "registrationCount": 256,
+      "rootSubmissionGas": 247051,
+      "rootExecutionFeeWei": "498915020653441",
+      "blobFeeWei": "7904726876160",
+      "sources": [
+        "scripts/Testnet/r2/full/scenarios/b6_sparse_n256_f50/artifacts/03_register.json",
+        "scripts/Testnet/r2/full/scenarios/b6_sparse_n256_f50/artifacts/06_submit_root.json"
+      ]
+    }
+  ],
+  "lifecycle": {
+    "b2": [
+      {
+        "scenarioId": "b2_lifecycle_n001",
+        "n": 1,
+        "rootSubmissionGas": 245803,
+        "claimCount": 1,
+        "firstClaimGas": 109191,
+        "subsequentClaimGas": null,
+        "averageClaimGas": 109191,
+        "effectiveClaimantGas": 354994,
+        "settlementGas": 75212,
+        "settlementEvent": [
+          "S8"
+        ],
+        "sources": [
+          "scripts/Testnet/r2/full/scenarios/b2_lifecycle_n001/artifacts/06_submit_root.json",
+          "scripts/Testnet/r2/full/scenarios/b2_lifecycle_n001/artifacts/09_claim.json",
+          "scripts/Testnet/r2/full/scenarios/b2_lifecycle_n001/artifacts/11_settle.json"
+        ]
+      },
+      {
+        "scenarioId": "b2_lifecycle_n016",
+        "n": 16,
+        "rootSubmissionGas": 246427,
+        "claimCount": 16,
+        "firstClaimGas": 83588,
+        "subsequentClaimGas": 83621,
+        "averageClaimGas": 85486,
+        "effectiveClaimantGas": 100888,
+        "settlementGas": 75212,
+        "settlementEvent": [
+          "S8"
+        ],
+        "sources": [
+          "scripts/Testnet/r2/full/scenarios/b2_lifecycle_n016/artifacts/06_submit_root.json",
+          "scripts/Testnet/r2/full/scenarios/b2_lifecycle_n016/artifacts/09_claim.json",
+          "scripts/Testnet/r2/full/scenarios/b2_lifecycle_n016/artifacts/11_settle.json"
+        ]
+      },
+      {
+        "scenarioId": "b2_lifecycle_n064",
+        "n": 64,
+        "rootSubmissionGas": 246739,
+        "claimCount": 64,
+        "firstClaimGas": 85487,
+        "subsequentClaimGas": 85520,
+        "averageClaimGas": 86025,
+        "effectiveClaimantGas": 89880,
+        "settlementGas": 75212,
+        "settlementEvent": [
+          "S8"
+        ],
+        "sources": [
+          "scripts/Testnet/r2/full/scenarios/b2_lifecycle_n064/artifacts/06_submit_root.json",
+          "scripts/Testnet/r2/full/scenarios/b2_lifecycle_n064/artifacts/09_claim.json",
+          "scripts/Testnet/r2/full/scenarios/b2_lifecycle_n064/artifacts/11_settle.json"
+        ]
+      },
+      {
+        "scenarioId": "b2_lifecycle_n128",
+        "n": 128,
+        "rootSubmissionGas": 246895,
+        "claimCount": 128,
+        "firstClaimGas": 120636,
+        "subsequentClaimGas": 86469,
+        "averageClaimGas": 86750,
+        "effectiveClaimantGas": 88679,
+        "settlementGas": 75212,
+        "settlementEvent": [
+          "S8"
+        ],
+        "sources": [
+          "scripts/Testnet/r2/full/scenarios/b2_lifecycle_n128/artifacts/06_submit_root.json",
+          "scripts/Testnet/r2/full/scenarios/b2_lifecycle_n128/artifacts/09_claim.json",
+          "scripts/Testnet/r2/full/scenarios/b2_lifecycle_n128/artifacts/11_settle.json"
+        ]
+      }
+    ],
+    "sparseFraction": [
+      {
+        "scenarioId": "b5_sparse_n128_f10",
+        "n": 128,
+        "rootSubmissionGas": 246895,
+        "claimCount": 13,
+        "firstClaimGas": 86424,
+        "subsequentClaimGas": 120657,
+        "averageClaimGas": 89105,
+        "effectiveClaimantGas": 108097,
+        "settlementGas": 95287,
+        "settlementEvent": [
+          "S8"
+        ],
+        "sources": [
+          "scripts/Testnet/r2/full/scenarios/b5_sparse_n128_f10/artifacts/06_submit_root.json",
+          "scripts/Testnet/r2/full/scenarios/b5_sparse_n128_f10/artifacts/09_claim.json",
+          "scripts/Testnet/r2/full/scenarios/b5_sparse_n128_f10/artifacts/11_settle.json"
+        ]
+      },
+      {
+        "scenarioId": "b5_sparse_n128_f25",
+        "n": 128,
+        "rootSubmissionGas": 246895,
+        "claimCount": 32,
+        "firstClaimGas": 86424,
+        "subsequentClaimGas": 86469,
+        "averageClaimGas": 87560,
+        "effectiveClaimantGas": 95275,
+        "settlementGas": 95287,
+        "settlementEvent": [
+          "S8"
+        ],
+        "sources": [
+          "scripts/Testnet/r2/full/scenarios/b5_sparse_n128_f25/artifacts/06_submit_root.json",
+          "scripts/Testnet/r2/full/scenarios/b5_sparse_n128_f25/artifacts/09_claim.json",
+          "scripts/Testnet/r2/full/scenarios/b5_sparse_n128_f25/artifacts/11_settle.json"
+        ]
+      },
+      {
+        "scenarioId": "b5_sparse_n128_f50",
+        "n": 128,
+        "rootSubmissionGas": 246895,
+        "claimCount": 64,
+        "firstClaimGas": 120648,
+        "subsequentClaimGas": 86481,
+        "averageClaimGas": 87045,
+        "effectiveClaimantGas": 90903,
+        "settlementGas": 95287,
+        "settlementEvent": [
+          "S8"
+        ],
+        "sources": [
+          "scripts/Testnet/r2/full/scenarios/b5_sparse_n128_f50/artifacts/06_submit_root.json",
+          "scripts/Testnet/r2/full/scenarios/b5_sparse_n128_f50/artifacts/09_claim.json",
+          "scripts/Testnet/r2/full/scenarios/b5_sparse_n128_f50/artifacts/11_settle.json"
+        ]
+      },
+      {
+        "scenarioId": "b5_sparse_n128_f75",
+        "n": 128,
+        "rootSubmissionGas": 246895,
+        "claimCount": 96,
+        "firstClaimGas": 86448,
+        "subsequentClaimGas": 86481,
+        "averageClaimGas": 86876,
+        "effectiveClaimantGas": 89448,
+        "settlementGas": 95287,
+        "settlementEvent": [
+          "S8"
+        ],
+        "sources": [
+          "scripts/Testnet/r2/full/scenarios/b5_sparse_n128_f75/artifacts/06_submit_root.json",
+          "scripts/Testnet/r2/full/scenarios/b5_sparse_n128_f75/artifacts/09_claim.json",
+          "scripts/Testnet/r2/full/scenarios/b5_sparse_n128_f75/artifacts/11_settle.json"
+        ]
+      },
+      {
+        "scenarioId": "b5_sparse_n128_f100",
+        "n": 128,
+        "rootSubmissionGas": 246895,
+        "claimCount": 128,
+        "firstClaimGas": 86436,
+        "subsequentClaimGas": 86469,
+        "averageClaimGas": 86746,
+        "effectiveClaimantGas": 88675,
+        "settlementGas": 75212,
+        "settlementEvent": [
+          "S8"
+        ],
+        "sources": [
+          "scripts/Testnet/r2/full/scenarios/b5_sparse_n128_f100/artifacts/06_submit_root.json",
+          "scripts/Testnet/r2/full/scenarios/b5_sparse_n128_f100/artifacts/09_claim.json",
+          "scripts/Testnet/r2/full/scenarios/b5_sparse_n128_f100/artifacts/11_settle.json"
+        ]
+      }
+    ],
+    "sparseBatchSize": [
+      {
+        "scenarioId": "b6_sparse_n016_f50",
+        "n": 16,
+        "rootSubmissionGas": 246415,
+        "claimCount": 8,
+        "firstClaimGas": 83588,
+        "subsequentClaimGas": 117833,
+        "averageClaimGas": 87910,
+        "effectiveClaimantGas": 118712,
+        "settlementGas": 95287,
+        "settlementEvent": [
+          "S8"
+        ],
+        "sources": [
+          "scripts/Testnet/r2/full/scenarios/b6_sparse_n016_f50/artifacts/06_submit_root.json",
+          "scripts/Testnet/r2/full/scenarios/b6_sparse_n016_f50/artifacts/09_claim.json",
+          "scripts/Testnet/r2/full/scenarios/b6_sparse_n016_f50/artifacts/11_settle.json"
+        ]
+      },
+      {
+        "scenarioId": "b6_sparse_n064_f50",
+        "n": 64,
+        "rootSubmissionGas": 246727,
+        "claimCount": 32,
+        "firstClaimGas": 85499,
+        "subsequentClaimGas": 119732,
+        "averageClaimGas": 86621,
+        "effectiveClaimantGas": 94331,
+        "settlementGas": 95287,
+        "settlementEvent": [
+          "S8"
+        ],
+        "sources": [
+          "scripts/Testnet/r2/full/scenarios/b6_sparse_n064_f50/artifacts/06_submit_root.json",
+          "scripts/Testnet/r2/full/scenarios/b6_sparse_n064_f50/artifacts/09_claim.json",
+          "scripts/Testnet/r2/full/scenarios/b6_sparse_n064_f50/artifacts/11_settle.json"
+        ]
+      },
+      {
+        "scenarioId": "b6_sparse_n128_f50",
+        "n": 128,
+        "rootSubmissionGas": 246895,
+        "claimCount": 64,
+        "firstClaimGas": 86436,
+        "subsequentClaimGas": 86469,
+        "averageClaimGas": 87042,
+        "effectiveClaimantGas": 90900,
+        "settlementGas": 95287,
+        "settlementEvent": [
+          "S8"
+        ],
+        "sources": [
+          "scripts/Testnet/r2/full/scenarios/b6_sparse_n128_f50/artifacts/06_submit_root.json",
+          "scripts/Testnet/r2/full/scenarios/b6_sparse_n128_f50/artifacts/09_claim.json",
+          "scripts/Testnet/r2/full/scenarios/b6_sparse_n128_f50/artifacts/11_settle.json"
+        ]
+      },
+      {
+        "scenarioId": "b6_sparse_n256_f50",
+        "n": 256,
+        "rootSubmissionGas": 247051,
+        "claimCount": 128,
+        "firstClaimGas": 87398,
+        "subsequentClaimGas": 87431,
+        "averageClaimGas": 87734,
+        "effectiveClaimantGas": 89664,
+        "settlementGas": 95287,
+        "settlementEvent": [
+          "S8"
+        ],
+        "sources": [
+          "scripts/Testnet/r2/full/scenarios/b6_sparse_n256_f50/artifacts/06_submit_root.json",
+          "scripts/Testnet/r2/full/scenarios/b6_sparse_n256_f50/artifacts/09_claim.json",
+          "scripts/Testnet/r2/full/scenarios/b6_sparse_n256_f50/artifacts/11_settle.json"
+        ]
+      }
+    ],
+    "meanClaimGasAcrossCompletedClaims": 87180
+  },
+  "directPaths": [
+    {
+      "scenarioId": "b4_path1",
+      "totalGas": 1106024,
+      "operations": {
+        "createBatch": 162431,
+        "lockProver": 92332,
+        "lockVerifier": 55332,
+        "setup": 397272,
+        "submitProof": 321159,
+        "settle": 77498
+      },
+      "sources": [
+        "scripts/Testnet/r2/full/scenarios/b4_path1/artifacts/01_deploy.json",
+        "scripts/Testnet/r2/full/scenarios/b4_path1/artifacts/02_fund_setup.json",
+        "scripts/Testnet/r2/full/scenarios/b4_path1/artifacts/03_submit_proof.json",
+        "scripts/Testnet/r2/full/scenarios/b4_path1/artifacts/04_settle.json"
+      ]
+    },
+    {
+      "scenarioId": "b4_path1b",
+      "totalGas": 1455080,
+      "operations": {
+        "createBatch": 162431,
+        "lockProver": 92332,
+        "lockVerifier": 55332,
+        "setup": 397272,
+        "dispute": 474153,
+        "resolveValidDispute": 195973,
+        "settle": 77587
+      },
+      "sources": [
+        "scripts/Testnet/r2/full/scenarios/b4_path1b/artifacts/01_deploy.json",
+        "scripts/Testnet/r2/full/scenarios/b4_path1b/artifacts/02_fund_setup.json",
+        "scripts/Testnet/r2/full/scenarios/b4_path1b/artifacts/03_open_dispute.json",
+        "scripts/Testnet/r2/full/scenarios/b4_path1b/artifacts/04_resolve_valid.json",
+        "scripts/Testnet/r2/full/scenarios/b4_path1b/artifacts/05_settle.json"
+      ]
+    },
+    {
+      "scenarioId": "b4_path3",
+      "totalGas": 1306490,
+      "operations": {
+        "createBatch": 162431,
+        "lockProver": 92332,
+        "lockVerifier": 55332,
+        "setup": 397272,
+        "dispute": 474153,
+        "settle": 124970
+      },
+      "sources": [
+        "scripts/Testnet/r2/full/scenarios/b4_path3/artifacts/01_deploy.json",
+        "scripts/Testnet/r2/full/scenarios/b4_path3/artifacts/02_fund_setup.json",
+        "scripts/Testnet/r2/full/scenarios/b4_path3/artifacts/03_open_dispute.json",
+        "scripts/Testnet/r2/full/scenarios/b4_path3/artifacts/04_settle_freeze.json"
+      ]
+    },
+    {
+      "scenarioId": "b4_path4",
+      "totalGas": 1290757,
+      "operations": {
+        "createBatch": 162431,
+        "lockProver": 92332,
+        "lockVerifier": 55332,
+        "setup": 397272,
+        "dispute": 474153,
+        "resolveInvalidDispute": 40529,
+        "settle": 68708
+      },
+      "sources": [
+        "scripts/Testnet/r2/full/scenarios/b4_path4/artifacts/01_deploy.json",
+        "scripts/Testnet/r2/full/scenarios/b4_path4/artifacts/02_fund_setup.json",
+        "scripts/Testnet/r2/full/scenarios/b4_path4/artifacts/03_open_dispute.json",
+        "scripts/Testnet/r2/full/scenarios/b4_path4/artifacts/04_resolve_invalid.json",
+        "scripts/Testnet/r2/full/scenarios/b4_path4/artifacts/05_settle.json"
+      ]
+    },
+    {
+      "scenarioId": "b4_path5",
+      "totalGas": 390056,
+      "operations": {
+        "createBatch": 162431,
+        "lockProver": 92332,
+        "lockVerifier": 55332,
+        "settle": 79961
+      },
+      "sources": [
+        "scripts/Testnet/r2/full/scenarios/b4_path5/artifacts/01_deploy.json",
+        "scripts/Testnet/r2/full/scenarios/b4_path5/artifacts/02_lock_only.json",
+        "scripts/Testnet/r2/full/scenarios/b4_path5/artifacts/03_settle.json"
+      ]
+    }
+  ],
+  "representativeProtocolLifecycles": {
+    "b2n128": {
+      "gas": 27743173,
+      "sources": [
+        "scripts/Testnet/r2/full/scenarios/b2_lifecycle_n128/artifacts/01_deploy.json",
+        "scripts/Testnet/r2/full/scenarios/b2_lifecycle_n128/artifacts/02_fund_setup.json",
+        "scripts/Testnet/r2/full/scenarios/b2_lifecycle_n128/artifacts/03_register.json",
+        "scripts/Testnet/r2/full/scenarios/b2_lifecycle_n128/artifacts/04_deposit_pool.json",
+        "scripts/Testnet/r2/full/scenarios/b2_lifecycle_n128/artifacts/06_submit_root.json",
+        "scripts/Testnet/r2/full/scenarios/b2_lifecycle_n128/artifacts/09_claim.json",
+        "scripts/Testnet/r2/full/scenarios/b2_lifecycle_n128/artifacts/11_settle.json"
+      ]
+    },
+    "b6n256f50": {
+      "gas": 48165630,
+      "sources": [
+        "scripts/Testnet/r2/full/scenarios/b6_sparse_n256_f50/artifacts/01_deploy.json",
+        "scripts/Testnet/r2/full/scenarios/b6_sparse_n256_f50/artifacts/02_fund_setup.json",
+        "scripts/Testnet/r2/full/scenarios/b6_sparse_n256_f50/artifacts/03_register.json",
+        "scripts/Testnet/r2/full/scenarios/b6_sparse_n256_f50/artifacts/04_deposit_pool.json",
+        "scripts/Testnet/r2/full/scenarios/b6_sparse_n256_f50/artifacts/06_submit_root.json",
+        "scripts/Testnet/r2/full/scenarios/b6_sparse_n256_f50/artifacts/09_claim.json",
+        "scripts/Testnet/r2/full/scenarios/b6_sparse_n256_f50/artifacts/11_settle.json"
+      ]
+    }
+  }
+}

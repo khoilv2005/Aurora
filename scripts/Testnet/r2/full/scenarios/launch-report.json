@@ -1,0 +1,922 @@
+{
+  "startedAt": "2026-07-30T21:14:34.154Z",
+  "roots": [
+    {
+      "scenarioId": "b6_sparse_n256_f50",
+      "directory": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b6_sparse_n256_f50",
+      "results": [
+        {
+          "step": "01_deploy",
+          "operationName": "deployBatch",
+          "skipped": true
+        },
+        {
+          "step": "02_fund_setup",
+          "operationName": "fundAndSetup",
+          "skipped": true
+        },
+        {
+          "step": "03_register",
+          "operationName": "registerUsers",
+          "skipped": true
+        },
+        {
+          "step": "04_deposit_pool",
+          "operationName": "depositUserPool",
+          "skipped": true
+        },
+        {
+          "step": "05_validate_pre_submit",
+          "operationName": "validateR2PreSubmit",
+          "skipped": true
+        },
+        {
+          "step": "06_submit_root",
+          "operationName": "submitRootBlob",
+          "skipped": true
+        },
+        {
+          "step": "07_validate_post_submit",
+          "operationName": "validateR2PostSubmit",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "scenarioId": "b1_submit_n128",
+      "directory": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b1_submit_n128",
+      "results": [
+        {
+          "step": "01_deploy",
+          "operationName": "deployBatch",
+          "skipped": true
+        },
+        {
+          "step": "02_fund_setup",
+          "operationName": "fundAndSetup",
+          "skipped": true
+        },
+        {
+          "step": "03_register",
+          "operationName": "registerUsers",
+          "skipped": true
+        },
+        {
+          "step": "04_deposit_pool",
+          "operationName": "depositUserPool",
+          "skipped": true
+        },
+        {
+          "step": "05_validate_pre_submit",
+          "operationName": "validateR2PreSubmit",
+          "skipped": true
+        },
+        {
+          "step": "06_submit_root",
+          "operationName": "submitRootBlob",
+          "skipped": true
+        },
+        {
+          "step": "07_validate_post_submit",
+          "operationName": "validateR2PostSubmit",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "scenarioId": "b2_lifecycle_n128",
+      "directory": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b2_lifecycle_n128",
+      "results": [
+        {
+          "step": "01_deploy",
+          "operationName": "deployBatch",
+          "skipped": true
+        },
+        {
+          "step": "02_fund_setup",
+          "operationName": "fundAndSetup",
+          "skipped": true
+        },
+        {
+          "step": "03_register",
+          "operationName": "registerUsers",
+          "skipped": true
+        },
+        {
+          "step": "04_deposit_pool",
+          "operationName": "depositUserPool",
+          "skipped": true
+        },
+        {
+          "step": "05_validate_pre_submit",
+          "operationName": "validateR2PreSubmit",
+          "skipped": true
+        },
+        {
+          "step": "06_submit_root",
+          "operationName": "submitRootBlob",
+          "skipped": true
+        },
+        {
+          "step": "07_validate_post_submit",
+          "operationName": "validateR2PostSubmit",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "scenarioId": "b5_sparse_n128_f10",
+      "directory": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b5_sparse_n128_f10",
+      "results": [
+        {
+          "step": "01_deploy",
+          "operationName": "deployBatch",
+          "skipped": true
+        },
+        {
+          "step": "02_fund_setup",
+          "operationName": "fundAndSetup",
+          "skipped": true
+        },
+        {
+          "step": "03_register",
+          "operationName": "registerUsers",
+          "skipped": true
+        },
+        {
+          "step": "04_deposit_pool",
+          "operationName": "depositUserPool",
+          "skipped": true
+        },
+        {
+          "step": "05_validate_pre_submit",
+          "operationName": "validateR2PreSubmit",
+          "skipped": true
+        },
+        {
+          "step": "06_submit_root",
+          "operationName": "submitRootBlob",
+          "skipped": true
+        },
+        {
+          "step": "07_validate_post_submit",
+          "operationName": "validateR2PostSubmit",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "scenarioId": "b5_sparse_n128_f25",
+      "directory": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b5_sparse_n128_f25",
+      "results": [
+        {
+          "step": "01_deploy",
+          "operationName": "deployBatch",
+          "skipped": true
+        },
+        {
+          "step": "02_fund_setup",
+          "operationName": "fundAndSetup",
+          "skipped": true
+        },
+        {
+          "step": "03_register",
+          "operationName": "registerUsers",
+          "skipped": true
+        },
+        {
+          "step": "04_deposit_pool",
+          "operationName": "depositUserPool",
+          "skipped": true
+        },
+        {
+          "step": "05_validate_pre_submit",
+          "operationName": "validateR2PreSubmit",
+          "skipped": true
+        },
+        {
+          "step": "06_submit_root",
+          "operationName": "submitRootBlob",
+          "skipped": true
+        },
+        {
+          "step": "07_validate_post_submit",
+          "operationName": "validateR2PostSubmit",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "scenarioId": "b5_sparse_n128_f50",
+      "directory": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b5_sparse_n128_f50",
+      "results": [
+        {
+          "step": "01_deploy",
+          "operationName": "deployBatch",
+          "skipped": true
+        },
+        {
+          "step": "02_fund_setup",
+          "operationName": "fundAndSetup",
+          "skipped": true
+        },
+        {
+          "step": "03_register",
+          "operationName": "registerUsers",
+          "skipped": true
+        },
+        {
+          "step": "04_deposit_pool",
+          "operationName": "depositUserPool",
+          "skipped": true
+        },
+        {
+          "step": "05_validate_pre_submit",
+          "operationName": "validateR2PreSubmit",
+          "skipped": true
+        },
+        {
+          "step": "06_submit_root",
+          "operationName": "submitRootBlob",
+          "skipped": true
+        },
+        {
+          "step": "07_validate_post_submit",
+          "operationName": "validateR2PostSubmit",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "scenarioId": "b5_sparse_n128_f75",
+      "directory": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b5_sparse_n128_f75",
+      "results": [
+        {
+          "step": "01_deploy",
+          "operationName": "deployBatch",
+          "skipped": true
+        },
+        {
+          "step": "02_fund_setup",
+          "operationName": "fundAndSetup",
+          "skipped": true
+        },
+        {
+          "step": "03_register",
+          "operationName": "registerUsers",
+          "skipped": true
+        },
+        {
+          "step": "04_deposit_pool",
+          "operationName": "depositUserPool",
+          "skipped": true
+        },
+        {
+          "step": "05_validate_pre_submit",
+          "operationName": "validateR2PreSubmit",
+          "skipped": true
+        },
+        {
+          "step": "06_submit_root",
+          "operationName": "submitRootBlob",
+          "skipped": true
+        },
+        {
+          "step": "07_validate_post_submit",
+          "operationName": "validateR2PostSubmit",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "scenarioId": "b5_sparse_n128_f100",
+      "directory": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b5_sparse_n128_f100",
+      "results": [
+        {
+          "step": "01_deploy",
+          "operationName": "deployBatch",
+          "skipped": true
+        },
+        {
+          "step": "02_fund_setup",
+          "operationName": "fundAndSetup",
+          "skipped": true
+        },
+        {
+          "step": "03_register",
+          "operationName": "registerUsers",
+          "skipped": true
+        },
+        {
+          "step": "04_deposit_pool",
+          "operationName": "depositUserPool",
+          "skipped": true
+        },
+        {
+          "step": "05_validate_pre_submit",
+          "operationName": "validateR2PreSubmit",
+          "skipped": true
+        },
+        {
+          "step": "06_submit_root",
+          "operationName": "submitRootBlob",
+          "skipped": true
+        },
+        {
+          "step": "07_validate_post_submit",
+          "operationName": "validateR2PostSubmit",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "scenarioId": "b6_sparse_n128_f50",
+      "directory": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b6_sparse_n128_f50",
+      "results": [
+        {
+          "step": "01_deploy",
+          "operationName": "deployBatch",
+          "skipped": true
+        },
+        {
+          "step": "02_fund_setup",
+          "operationName": "fundAndSetup",
+          "skipped": true
+        },
+        {
+          "step": "03_register",
+          "operationName": "registerUsers",
+          "skipped": true
+        },
+        {
+          "step": "04_deposit_pool",
+          "operationName": "depositUserPool",
+          "skipped": true
+        },
+        {
+          "step": "05_validate_pre_submit",
+          "operationName": "validateR2PreSubmit",
+          "skipped": true
+        },
+        {
+          "step": "06_submit_root",
+          "operationName": "submitRootBlob",
+          "skipped": true
+        },
+        {
+          "step": "07_validate_post_submit",
+          "operationName": "validateR2PostSubmit",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "scenarioId": "b1_submit_n064",
+      "directory": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b1_submit_n064",
+      "results": [
+        {
+          "step": "01_deploy",
+          "operationName": "deployBatch",
+          "skipped": true
+        },
+        {
+          "step": "02_fund_setup",
+          "operationName": "fundAndSetup",
+          "skipped": true
+        },
+        {
+          "step": "03_register",
+          "operationName": "registerUsers",
+          "skipped": true
+        },
+        {
+          "step": "04_deposit_pool",
+          "operationName": "depositUserPool",
+          "skipped": true
+        },
+        {
+          "step": "05_validate_pre_submit",
+          "operationName": "validateR2PreSubmit",
+          "skipped": true
+        },
+        {
+          "step": "06_submit_root",
+          "operationName": "submitRootBlob",
+          "skipped": true
+        },
+        {
+          "step": "07_validate_post_submit",
+          "operationName": "validateR2PostSubmit",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "scenarioId": "b2_lifecycle_n064",
+      "directory": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b2_lifecycle_n064",
+      "results": [
+        {
+          "step": "01_deploy",
+          "operationName": "deployBatch",
+          "skipped": true
+        },
+        {
+          "step": "02_fund_setup",
+          "operationName": "fundAndSetup",
+          "skipped": true
+        },
+        {
+          "step": "03_register",
+          "operationName": "registerUsers",
+          "skipped": true
+        },
+        {
+          "step": "04_deposit_pool",
+          "operationName": "depositUserPool",
+          "skipped": true
+        },
+        {
+          "step": "05_validate_pre_submit",
+          "operationName": "validateR2PreSubmit",
+          "skipped": true
+        },
+        {
+          "step": "06_submit_root",
+          "operationName": "submitRootBlob",
+          "skipped": true
+        },
+        {
+          "step": "07_validate_post_submit",
+          "operationName": "validateR2PostSubmit",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "scenarioId": "b6_sparse_n064_f50",
+      "directory": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b6_sparse_n064_f50",
+      "results": [
+        {
+          "step": "01_deploy",
+          "operationName": "deployBatch",
+          "skipped": true
+        },
+        {
+          "step": "02_fund_setup",
+          "operationName": "fundAndSetup",
+          "skipped": true
+        },
+        {
+          "step": "03_register",
+          "operationName": "registerUsers",
+          "skipped": true
+        },
+        {
+          "step": "04_deposit_pool",
+          "operationName": "depositUserPool",
+          "skipped": true
+        },
+        {
+          "step": "05_validate_pre_submit",
+          "operationName": "validateR2PreSubmit",
+          "skipped": true
+        },
+        {
+          "step": "06_submit_root",
+          "operationName": "submitRootBlob",
+          "skipped": true
+        },
+        {
+          "step": "07_validate_post_submit",
+          "operationName": "validateR2PostSubmit",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "scenarioId": "b1_submit_n016",
+      "directory": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b1_submit_n016",
+      "results": [
+        {
+          "step": "01_deploy",
+          "operationName": "deployBatch",
+          "skipped": true
+        },
+        {
+          "step": "02_fund_setup",
+          "operationName": "fundAndSetup",
+          "skipped": true
+        },
+        {
+          "step": "03_register",
+          "operationName": "registerUsers",
+          "skipped": true
+        },
+        {
+          "step": "04_deposit_pool",
+          "operationName": "depositUserPool",
+          "skipped": true
+        },
+        {
+          "step": "05_validate_pre_submit",
+          "operationName": "validateR2PreSubmit",
+          "skipped": true
+        },
+        {
+          "step": "06_submit_root",
+          "operationName": "submitRootBlob",
+          "skipped": true
+        },
+        {
+          "step": "07_validate_post_submit",
+          "operationName": "validateR2PostSubmit",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "scenarioId": "b2_lifecycle_n016",
+      "directory": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b2_lifecycle_n016",
+      "results": [
+        {
+          "step": "01_deploy",
+          "operationName": "deployBatch",
+          "skipped": true
+        },
+        {
+          "step": "02_fund_setup",
+          "operationName": "fundAndSetup",
+          "skipped": true
+        },
+        {
+          "step": "03_register",
+          "operationName": "registerUsers",
+          "skipped": true
+        },
+        {
+          "step": "04_deposit_pool",
+          "operationName": "depositUserPool",
+          "skipped": true
+        },
+        {
+          "step": "05_validate_pre_submit",
+          "operationName": "validateR2PreSubmit",
+          "skipped": true
+        },
+        {
+          "step": "06_submit_root",
+          "operationName": "submitRootBlob",
+          "skipped": true
+        },
+        {
+          "step": "07_validate_post_submit",
+          "operationName": "validateR2PostSubmit",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "scenarioId": "b6_sparse_n016_f50",
+      "directory": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b6_sparse_n016_f50",
+      "results": [
+        {
+          "step": "01_deploy",
+          "operationName": "deployBatch",
+          "skipped": true
+        },
+        {
+          "step": "02_fund_setup",
+          "operationName": "fundAndSetup",
+          "skipped": true
+        },
+        {
+          "step": "03_register",
+          "operationName": "registerUsers",
+          "skipped": true
+        },
+        {
+          "step": "04_deposit_pool",
+          "operationName": "depositUserPool",
+          "skipped": true
+        },
+        {
+          "step": "05_validate_pre_submit",
+          "operationName": "validateR2PreSubmit",
+          "skipped": true
+        },
+        {
+          "step": "06_submit_root",
+          "operationName": "submitRootBlob",
+          "skipped": true
+        },
+        {
+          "step": "07_validate_post_submit",
+          "operationName": "validateR2PostSubmit",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "scenarioId": "b1_submit_n001",
+      "directory": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b1_submit_n001",
+      "results": [
+        {
+          "step": "01_deploy",
+          "operationName": "deployBatch",
+          "skipped": true
+        },
+        {
+          "step": "02_fund_setup",
+          "operationName": "fundAndSetup",
+          "skipped": true
+        },
+        {
+          "step": "03_register",
+          "operationName": "registerUsers",
+          "skipped": true
+        },
+        {
+          "step": "04_deposit_pool",
+          "operationName": "depositUserPool",
+          "skipped": true
+        },
+        {
+          "step": "05_validate_pre_submit",
+          "operationName": "validateR2PreSubmit",
+          "skipped": true
+        },
+        {
+          "step": "06_submit_root",
+          "operationName": "submitRootBlob",
+          "skipped": true
+        },
+        {
+          "step": "07_validate_post_submit",
+          "operationName": "validateR2PostSubmit",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "scenarioId": "b2_lifecycle_n001",
+      "directory": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b2_lifecycle_n001",
+      "results": [
+        {
+          "step": "01_deploy",
+          "operationName": "deployBatch",
+          "skipped": true
+        },
+        {
+          "step": "02_fund_setup",
+          "operationName": "fundAndSetup",
+          "skipped": true
+        },
+        {
+          "step": "03_register",
+          "operationName": "registerUsers",
+          "skipped": true
+        },
+        {
+          "step": "04_deposit_pool",
+          "operationName": "depositUserPool",
+          "skipped": true
+        },
+        {
+          "step": "05_validate_pre_submit",
+          "operationName": "validateR2PreSubmit",
+          "skipped": true
+        },
+        {
+          "step": "06_submit_root",
+          "operationName": "submitRootBlob",
+          "skipped": true
+        },
+        {
+          "step": "07_validate_post_submit",
+          "operationName": "validateR2PostSubmit",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "scenarioId": "b3_rejection_successor",
+      "directory": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b3_rejection_successor",
+      "results": [
+        {
+          "step": "01_deploy",
+          "operationName": "deployBatch",
+          "skipped": true
+        },
+        {
+          "step": "02_fund_setup",
+          "operationName": "fundAndSetup",
+          "skipped": true
+        },
+        {
+          "step": "03_register",
+          "operationName": "registerUsers",
+          "skipped": true
+        },
+        {
+          "step": "04_deposit_pool",
+          "operationName": "depositUserPool",
+          "skipped": true
+        },
+        {
+          "step": "05_validate_pre_submit",
+          "operationName": "validateR2PreSubmit",
+          "skipped": true
+        },
+        {
+          "step": "06_submit_root",
+          "operationName": "submitRootBlob",
+          "skipped": true
+        },
+        {
+          "step": "07_validate_post_submit",
+          "operationName": "validateR2PostSubmit",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "scenarioId": "b4_path2b",
+      "directory": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b4_path2b",
+      "results": [
+        {
+          "step": "01_deploy",
+          "operationName": "deployBatch",
+          "skipped": true
+        },
+        {
+          "step": "02_fund_setup",
+          "operationName": "fundAndSetup",
+          "skipped": true
+        },
+        {
+          "step": "03_register",
+          "operationName": "registerUsers",
+          "skipped": true
+        },
+        {
+          "step": "04_deposit_pool",
+          "operationName": "depositUserPool",
+          "skipped": true
+        },
+        {
+          "step": "05_validate_pre_submit",
+          "operationName": "validateR2PreSubmit",
+          "skipped": true
+        },
+        {
+          "step": "06_submit_root",
+          "operationName": "submitRootBlob",
+          "skipped": false
+        },
+        {
+          "step": "07_validate_post_submit",
+          "operationName": "validateR2PostSubmit",
+          "skipped": false
+        }
+      ]
+    }
+  ],
+  "direct": [
+    {
+      "scenarioId": "b4_path1",
+      "directory": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b4_path1",
+      "results": [
+        {
+          "step": "01_deploy",
+          "operationName": "deployBatch",
+          "skipped": false
+        },
+        {
+          "step": "02_fund_setup",
+          "operationName": "fundAndSetup",
+          "skipped": false
+        },
+        {
+          "step": "03_submit_proof",
+          "operationName": "submitProof",
+          "skipped": false
+        },
+        {
+          "step": "04_settle",
+          "operationName": "settle",
+          "skipped": false
+        }
+      ]
+    },
+    {
+      "scenarioId": "b4_path1b",
+      "directory": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b4_path1b",
+      "results": [
+        {
+          "step": "01_deploy",
+          "operationName": "deployBatch",
+          "skipped": false
+        },
+        {
+          "step": "02_fund_setup",
+          "operationName": "fundAndSetup",
+          "skipped": false
+        },
+        {
+          "step": "03_open_dispute",
+          "operationName": "openDispute",
+          "skipped": false
+        },
+        {
+          "step": "04_resolve_valid",
+          "operationName": "resolveValidDispute",
+          "skipped": false
+        },
+        {
+          "step": "05_settle",
+          "operationName": "settle",
+          "skipped": false
+        }
+      ]
+    },
+    {
+      "scenarioId": "b4_path3",
+      "directory": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b4_path3",
+      "results": [
+        {
+          "step": "01_deploy",
+          "operationName": "deployBatch",
+          "skipped": false
+        },
+        {
+          "step": "02_fund_setup",
+          "operationName": "fundAndSetup",
+          "skipped": false
+        },
+        {
+          "step": "03_open_dispute",
+          "operationName": "openDispute",
+          "skipped": false
+        },
+        {
+          "step": "04_settle_freeze",
+          "operationName": "settle",
+          "skipped": false
+        }
+      ]
+    },
+    {
+      "scenarioId": "b4_path4",
+      "directory": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b4_path4",
+      "results": [
+        {
+          "step": "01_deploy",
+          "operationName": "deployBatch",
+          "skipped": false
+        },
+        {
+          "step": "02_fund_setup",
+          "operationName": "fundAndSetup",
+          "skipped": false
+        },
+        {
+          "step": "03_open_dispute",
+          "operationName": "openDispute",
+          "skipped": false
+        },
+        {
+          "step": "04_resolve_invalid",
+          "operationName": "resolveInvalidDispute",
+          "skipped": false
+        },
+        {
+          "step": "05_settle",
+          "operationName": "settle",
+          "skipped": false
+        }
+      ]
+    },
+    {
+      "scenarioId": "b4_path5",
+      "directory": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b4_path5",
+      "results": [
+        {
+          "step": "01_deploy",
+          "operationName": "deployBatch",
+          "skipped": false
+        },
+        {
+          "step": "02_lock_only",
+          "operationName": "lockOnly",
+          "skipped": false
+        },
+        {
+          "step": "03_settle",
+          "operationName": "settle",
+          "skipped": false
+        }
+      ]
+    }
+  ],
+  "completedAt": "2026-07-30T21:20:45.378Z"
+}

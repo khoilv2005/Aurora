@@ -1,0 +1,10 @@
+{
+  "scenarioId": "b4_path5",
+  "networkName": "sepolia",
+  "implementationAddress": "0x4C2AE5f5A5930b8A36A7828AbE826Cf5f6A64574",
+  "factoryAddress": "0xcD5884aF2F948F81cAd07B369C0bb505900E0d48",
+  "batchAddress": "0x138DBFd81cc78E27DB360FaA9762C2CDB57A4F8d",
+  "proverAddress": "0x798B43A32C1aB1126e978f40D037DC490ad95bAB",
+  "verifierAddress": "0xE875A5cdFF44FA0990F8497d2dE9389d3A82748F",
+  "userAddresses": []
+}

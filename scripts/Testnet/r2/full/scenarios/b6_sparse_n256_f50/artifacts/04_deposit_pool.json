@@ -1,0 +1,25 @@
+{
+  "highlights": {
+    "depositedWei": "25600000000000000",
+    "depositedEth": "0.0256"
+  },
+  "transactions": [
+    {
+      "label": "depositUserPool",
+      "txHash": "0x8dd7513005c1b2c1651a94865b689eb94abcd4282b84065ec9bcfa566070351c",
+      "txLink": "https://sepolia.etherscan.io/tx/0x8dd7513005c1b2c1651a94865b689eb94abcd4282b84065ec9bcfa566070351c",
+      "from": "0x798B43A32C1aB1126e978f40D037DC490ad95bAB",
+      "to": "0xB48F2f09c769Ae93a4bFD79BCAFAc9dF9Bc6C32d",
+      "gasUsed": "54184",
+      "effectiveGasPrice": "2488437298",
+      "gasCostWei": "134833486554832",
+      "blockNumber": 11384781,
+      "blockTimestamp": 1785443388,
+      "latencyMs": 12810,
+      "status": 1,
+      "eventNames": [
+        "userPoolDeposited"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "steps": [
+    {
+      "step": "01_deploy",
+      "recordedAt": "2026-07-30T21:14:56.713Z",
+      "artifact": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b4_path1\\artifacts\\01_deploy.json",
+      "highlights": {
+        "implementationAddress": "0x4C2AE5f5A5930b8A36A7828AbE826Cf5f6A64574",
+        "implementationLink": "https://sepolia.etherscan.io/address/0x4C2AE5f5A5930b8A36A7828AbE826Cf5f6A64574",
+        "factoryAddress": "0xcD5884aF2F948F81cAd07B369C0bb505900E0d48",
+        "factoryLink": "https://sepolia.etherscan.io/address/0xcD5884aF2F948F81cAd07B369C0bb505900E0d48",
+        "batchAddress": "0x91ce1e1c9D898d255c8ce689bA88FF5A1e7f7649",
+        "batchLink": "https://sepolia.etherscan.io/address/0x91ce1e1c9D898d255c8ce689bA88FF5A1e7f7649",
+        "reusedSharedDeployment": true,
+        "sharedDeploymentKey": "aurora-r2"
+      }
+    },
+    {
+      "step": "02_fund_setup",
+      "recordedAt": "2026-07-30T21:15:36.099Z",
+      "artifact": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b4_path1\\artifacts\\02_fund_setup.json",
+      "highlights": {
+        "batchAddress": "0x91ce1e1c9D898d255c8ce689bA88FF5A1e7f7649",
+        "batchLink": "https://sepolia.etherscan.io/address/0x91ce1e1c9D898d255c8ce689bA88FF5A1e7f7649",
+        "setupSkipped": false
+      }
+    },
+    {
+      "step": "03_submit_proof",
+      "recordedAt": "2026-07-30T21:15:45.091Z",
+      "artifact": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b4_path1\\artifacts\\03_submit_proof.json",
+      "highlights": {
+        "path": "1"
+      }
+    },
+    {
+      "step": "04_settle",
+      "recordedAt": "2026-07-30T21:15:58.706Z",
+      "artifact": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b4_path1\\artifacts\\04_settle.json",
+      "highlights": {
+        "path": "path1",
+        "stateEventCodes": [
+          {
+            "code": "S7",
+            "label": "Settle Path 1 (proof accepted)"
+          }
+        ]
+      }
+    }
+  ]
+}

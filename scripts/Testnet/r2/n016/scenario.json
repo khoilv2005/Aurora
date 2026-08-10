@@ -1,0 +1,16 @@
+{
+  "scenarioId": "r2_n016",
+  "description": "R2 n=16 representative lifecycle validation",
+  "protocolVersion": "r2",
+  "sharedDeploymentKey": "aurora-r2",
+  "batchSize": 16,
+  "userCount": 16,
+  "leafAmountEth": "0.001",
+  "proverFundingEth": "0.03",
+  "verifierFundingEth": "0.03",
+  "userFundingEth": "0.012",
+  "gasBufferEth": "0.004",
+  "depositUserPoolEth": "0.016",
+  "claimCount": 16,
+  "path": "path2"
+}

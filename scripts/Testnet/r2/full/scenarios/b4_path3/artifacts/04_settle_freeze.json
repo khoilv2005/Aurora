@@ -1,0 +1,41 @@
+{
+  "highlights": {
+    "path": "path3",
+    "stateEventCodes": [
+      {
+        "code": "S10",
+        "label": "Settle Path 3 (dispute frozen)"
+      }
+    ]
+  },
+  "balancesBefore": {
+    "prover": "389791249973112895",
+    "verifier": "2884593430568900114",
+    "batch": "40000000000000000"
+  },
+  "balancesAfter": {
+    "prover": "389463530201614245",
+    "verifier": "2884593430568900114",
+    "batch": "40000000000000000"
+  },
+  "transactions": [
+    {
+      "label": "settle",
+      "txHash": "0x11e1c8478713b0685670a0c9a66c82b9d3e5c5006e758c420aa6100d6f7ca6f3",
+      "txLink": "https://sepolia.etherscan.io/tx/0x11e1c8478713b0685670a0c9a66c82b9d3e5c5006e758c420aa6100d6f7ca6f3",
+      "from": "0x798B43A32C1aB1126e978f40D037DC490ad95bAB",
+      "to": "0x55B30e8573328668B150eEA18E207A75CbB73A6c",
+      "gasUsed": "124970",
+      "effectiveGasPrice": "2622387545",
+      "gasCostWei": "327719771498650",
+      "blockNumber": 11385021,
+      "blockTimestamp": 1785446340,
+      "latencyMs": 8792,
+      "status": 1,
+      "eventNames": [
+        "DisputeFrozen",
+        "stateEvent"
+      ]
+    }
+  ]
+}

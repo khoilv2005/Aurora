@@ -1,0 +1,33 @@
+{
+  "highlights": {
+    "merkleRoot": "0xe0983b628bd2dc3aa2cdd3b451f2e6d99e773ee95714dc064d996741ad5ace36",
+    "batchSize": 128,
+    "paddedBatchSize": 128,
+    "gasUsed": "246895",
+    "effectiveGasPrice": "2032676537",
+    "blobGasUsed": "131072",
+    "blobGasPrice": "63787430",
+    "executionFeeWei": "501857673602615",
+    "blobFeeWei": "8360746024960",
+    "totalFeeWei": "510218419627575",
+    "perUserGas": 1929,
+    "txHash": "0x64368d45e1af056db0dbd5bdba101551a0efae2960faa29304465570848414c1",
+    "txLink": "https://sepolia.etherscan.io/tx/0x64368d45e1af056db0dbd5bdba101551a0efae2960faa29304465570848414c1"
+  },
+  "transactions": [
+    {
+      "label": "submitMerkleRoot(blob)",
+      "txHash": "0x64368d45e1af056db0dbd5bdba101551a0efae2960faa29304465570848414c1",
+      "txLink": "https://sepolia.etherscan.io/tx/0x64368d45e1af056db0dbd5bdba101551a0efae2960faa29304465570848414c1",
+      "gasUsed": "246895",
+      "effectiveGasPrice": "2032676537",
+      "blobGasUsed": "131072",
+      "blobGasPrice": "63787430",
+      "executionFeeWei": "501857673602615",
+      "blobFeeWei": "8360746024960",
+      "totalFeeWei": "510218419627575",
+      "blockNumber": 11384807,
+      "blockTimestamp": 1785443736
+    }
+  ]
+}

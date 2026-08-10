@@ -1,0 +1,39 @@
+{
+  "highlights": {
+    "implementationAddress": "0x4C2AE5f5A5930b8A36A7828AbE826Cf5f6A64574",
+    "implementationLink": "https://sepolia.etherscan.io/address/0x4C2AE5f5A5930b8A36A7828AbE826Cf5f6A64574",
+    "factoryAddress": "0xcD5884aF2F948F81cAd07B369C0bb505900E0d48",
+    "factoryLink": "https://sepolia.etherscan.io/address/0xcD5884aF2F948F81cAd07B369C0bb505900E0d48",
+    "batchAddress": "0xb05fcBA1aD2A0cB4e9e400D52925f3a55B40AaD5",
+    "batchLink": "https://sepolia.etherscan.io/address/0xb05fcBA1aD2A0cB4e9e400D52925f3a55B40AaD5",
+    "reusedSharedDeployment": true,
+    "sharedDeploymentKey": "aurora-r2"
+  },
+  "transactions": [
+    {
+      "label": "createBatch",
+      "txHash": "0x298d2e7bda6e103d7d9537c465086d62d5efae97671b51130f7428da977415d7",
+      "txLink": "https://sepolia.etherscan.io/tx/0x298d2e7bda6e103d7d9537c465086d62d5efae97671b51130f7428da977415d7",
+      "from": "0xE875A5cdFF44FA0990F8497d2dE9389d3A82748F",
+      "to": "0xcD5884aF2F948F81cAd07B369C0bb505900E0d48",
+      "gasUsed": "162431",
+      "effectiveGasPrice": "1075373392",
+      "gasCostWei": "174673975435952",
+      "blockNumber": 11384994,
+      "blockTimestamp": 1785446016,
+      "latencyMs": 12610,
+      "status": 1,
+      "eventNames": [
+        "BatchCreated"
+      ]
+    }
+  ],
+  "actors": {
+    "deployer": "0xE875A5cdFF44FA0990F8497d2dE9389d3A82748F",
+    "prover": "0x798B43A32C1aB1126e978f40D037DC490ad95bAB",
+    "verifier": "0xE875A5cdFF44FA0990F8497d2dE9389d3A82748F",
+    "users": [
+      "0x219A9BA3aB4D4Db17a3394c8633F01962C592825"
+    ]
+  }
+}

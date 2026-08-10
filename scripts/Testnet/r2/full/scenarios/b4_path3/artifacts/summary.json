@@ -1,0 +1,51 @@
+{
+  "steps": [
+    {
+      "step": "01_deploy",
+      "recordedAt": "2026-07-30T21:17:35.298Z",
+      "artifact": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b4_path3\\artifacts\\01_deploy.json",
+      "highlights": {
+        "implementationAddress": "0x4C2AE5f5A5930b8A36A7828AbE826Cf5f6A64574",
+        "implementationLink": "https://sepolia.etherscan.io/address/0x4C2AE5f5A5930b8A36A7828AbE826Cf5f6A64574",
+        "factoryAddress": "0xcD5884aF2F948F81cAd07B369C0bb505900E0d48",
+        "factoryLink": "https://sepolia.etherscan.io/address/0xcD5884aF2F948F81cAd07B369C0bb505900E0d48",
+        "batchAddress": "0x55B30e8573328668B150eEA18E207A75CbB73A6c",
+        "batchLink": "https://sepolia.etherscan.io/address/0x55B30e8573328668B150eEA18E207A75CbB73A6c",
+        "reusedSharedDeployment": true,
+        "sharedDeploymentKey": "aurora-r2"
+      }
+    },
+    {
+      "step": "02_fund_setup",
+      "recordedAt": "2026-07-30T21:18:10.501Z",
+      "artifact": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b4_path3\\artifacts\\02_fund_setup.json",
+      "highlights": {
+        "batchAddress": "0x55B30e8573328668B150eEA18E207A75CbB73A6c",
+        "batchLink": "https://sepolia.etherscan.io/address/0x55B30e8573328668B150eEA18E207A75CbB73A6c",
+        "setupSkipped": false
+      }
+    },
+    {
+      "step": "03_open_dispute",
+      "recordedAt": "2026-07-30T21:18:23.482Z",
+      "artifact": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b4_path3\\artifacts\\03_open_dispute.json",
+      "highlights": {
+        "disputeVector": "future"
+      }
+    },
+    {
+      "step": "04_settle_freeze",
+      "recordedAt": "2026-07-30T21:18:33.029Z",
+      "artifact": "D:\\UIT\\Alba\\ALBA-Protocol\\scripts\\Testnet\\r2\\full\\scenarios\\b4_path3\\artifacts\\04_settle_freeze.json",
+      "highlights": {
+        "path": "path3",
+        "stateEventCodes": [
+          {
+            "code": "S10",
+            "label": "Settle Path 3 (dispute frozen)"
+          }
+        ]
+      }
+    }
+  ]
+}

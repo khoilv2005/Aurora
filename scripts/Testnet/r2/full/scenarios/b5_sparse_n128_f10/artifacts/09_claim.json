@@ -1,0 +1,441 @@
+{
+  "highlights": {
+    "claimed": 13,
+    "firstClaimGas": 86424,
+    "subsequentClaimGas": 120657,
+    "avgClaimGas": 89105
+  },
+  "transactions": [
+    {
+      "label": "claim:0",
+      "txHash": "0x2eb28a43f49e17750cd7afe2f3b4ffe01781dd44c42ed4f6a186be3b7e54f70b",
+      "txLink": "https://sepolia.etherscan.io/tx/0x2eb28a43f49e17750cd7afe2f3b4ffe01781dd44c42ed4f6a186be3b7e54f70b",
+      "from": "0xa1604Ef6c48204BbF15Fd84458d69C6C0cD59993",
+      "to": "0xF367d075C9c8789Ea1b39c7D761Cc5E71F91745D",
+      "gasUsed": "86424",
+      "effectiveGasPrice": "3033609324",
+      "gasCostWei": "262176652217376",
+      "blockNumber": 11404664,
+      "blockTimestamp": 1785689376,
+      "latencyMs": 13648,
+      "status": 1,
+      "eventNames": [
+        "userPaid",
+        "leafClaimed"
+      ]
+    },
+    {
+      "label": "claim:1",
+      "txHash": "0xad24cadd4f1e7645eee86e5e5f60fe33ab53960028115d8935d5ffaddac4651d",
+      "txLink": "https://sepolia.etherscan.io/tx/0xad24cadd4f1e7645eee86e5e5f60fe33ab53960028115d8935d5ffaddac4651d",
+      "from": "0x0A7146B9dFc38AB8884317ED0B7588fB4534e5D6",
+      "to": "0xF367d075C9c8789Ea1b39c7D761Cc5E71F91745D",
+      "gasUsed": "120657",
+      "effectiveGasPrice": "3033609324",
+      "gasCostWei": "366026200205868",
+      "blockNumber": 11404664,
+      "blockTimestamp": 1785689376,
+      "latencyMs": 13569,
+      "status": 1,
+      "eventNames": [
+        "userPaid",
+        "leafClaimed"
+      ]
+    },
+    {
+      "label": "claim:2",
+      "txHash": "0xd5b84a4000490d7a8f75133e1d86a4fa3bb7b4091bbd87b9fa29e22f9fefef0e",
+      "txLink": "https://sepolia.etherscan.io/tx/0xd5b84a4000490d7a8f75133e1d86a4fa3bb7b4091bbd87b9fa29e22f9fefef0e",
+      "from": "0xFA21adff4dDCb5bA95fd84690449c4406bDd497f",
+      "to": "0xF367d075C9c8789Ea1b39c7D761Cc5E71F91745D",
+      "gasUsed": "86457",
+      "effectiveGasPrice": "3033609324",
+      "gasCostWei": "262276761325068",
+      "blockNumber": 11404664,
+      "blockTimestamp": 1785689376,
+      "latencyMs": 13652,
+      "status": 1,
+      "eventNames": [
+        "userPaid",
+        "leafClaimed"
+      ]
+    },
+    {
+      "label": "claim:3",
+      "txHash": "0xf6d3053fb43bd5ff250b43723f2c7036854f6cb5565fc9f7e96efc81d011bffa",
+      "txLink": "https://sepolia.etherscan.io/tx/0xf6d3053fb43bd5ff250b43723f2c7036854f6cb5565fc9f7e96efc81d011bffa",
+      "from": "0x219A9BA3aB4D4Db17a3394c8633F01962C592825",
+      "to": "0xF367d075C9c8789Ea1b39c7D761Cc5E71F91745D",
+      "gasUsed": "86478",
+      "effectiveGasPrice": "3033609324",
+      "gasCostWei": "262340467120872",
+      "blockNumber": 11404664,
+      "blockTimestamp": 1785689376,
+      "latencyMs": 13673,
+      "status": 1,
+      "eventNames": [
+        "userPaid",
+        "leafClaimed"
+      ]
+    },
+    {
+      "label": "claim:4",
+      "txHash": "0xddeced35fcdcfeaa4b2c9f0615aa64efa421d967063bbc5f09278ac40c30e9a5",
+      "txLink": "https://sepolia.etherscan.io/tx/0xddeced35fcdcfeaa4b2c9f0615aa64efa421d967063bbc5f09278ac40c30e9a5",
+      "from": "0xDc124B53c4325e63622aDf5B35Fa5AeA9DD74393",
+      "to": "0xF367d075C9c8789Ea1b39c7D761Cc5E71F91745D",
+      "gasUsed": "86469",
+      "effectiveGasPrice": "3033609324",
+      "gasCostWei": "262313164636956",
+      "blockNumber": 11404664,
+      "blockTimestamp": 1785689376,
+      "latencyMs": 13566,
+      "status": 1,
+      "eventNames": [
+        "userPaid",
+        "leafClaimed"
+      ]
+    },
+    {
+      "label": "claim:5",
+      "txHash": "0x6bbd66e523dad97cb8bac31d40c71e5931cef993b4be31cbe231349e94bb8fcd",
+      "txLink": "https://sepolia.etherscan.io/tx/0x6bbd66e523dad97cb8bac31d40c71e5931cef993b4be31cbe231349e94bb8fcd",
+      "from": "0xe3c3d60906E6D436ddcF0DE7A947Ea66d2fc37f5",
+      "to": "0xF367d075C9c8789Ea1b39c7D761Cc5E71F91745D",
+      "gasUsed": "86478",
+      "effectiveGasPrice": "3033609324",
+      "gasCostWei": "262340467120872",
+      "blockNumber": 11404664,
+      "blockTimestamp": 1785689376,
+      "latencyMs": 13557,
+      "status": 1,
+      "eventNames": [
+        "userPaid",
+        "leafClaimed"
+      ]
+    },
+    {
+      "label": "claim:6",
+      "txHash": "0xe9050847526538dcbda3fa0cdad14cf5666d28253ba42afee604f3438f95f5dc",
+      "txLink": "https://sepolia.etherscan.io/tx/0xe9050847526538dcbda3fa0cdad14cf5666d28253ba42afee604f3438f95f5dc",
+      "from": "0xff0751932a22aF83E24653193d8138EB5E7e98D7",
+      "to": "0xF367d075C9c8789Ea1b39c7D761Cc5E71F91745D",
+      "gasUsed": "86490",
+      "effectiveGasPrice": "3033609324",
+      "gasCostWei": "262376870432760",
+      "blockNumber": 11404664,
+      "blockTimestamp": 1785689376,
+      "latencyMs": 13560,
+      "status": 1,
+      "eventNames": [
+        "userPaid",
+        "leafClaimed"
+      ]
+    },
+    {
+      "label": "claim:7",
+      "txHash": "0x3e748b269bd9b63b88acc1157b42aa2a65ef9edc07c5e2ccc11ec379bfeb680e",
+      "txLink": "https://sepolia.etherscan.io/tx/0x3e748b269bd9b63b88acc1157b42aa2a65ef9edc07c5e2ccc11ec379bfeb680e",
+      "from": "0xB6363468E3Ff66361c37E08d33F3FEEACEaB4391",
+      "to": "0xF367d075C9c8789Ea1b39c7D761Cc5E71F91745D",
+      "gasUsed": "86499",
+      "effectiveGasPrice": "3033609324",
+      "gasCostWei": "262404172916676",
+      "blockNumber": 11404664,
+      "blockTimestamp": 1785689376,
+      "latencyMs": 13549,
+      "status": 1,
+      "eventNames": [
+        "userPaid",
+        "leafClaimed"
+      ]
+    },
+    {
+      "label": "claim:8",
+      "txHash": "0x58857405b237578fe2b7b24926241f0488b049ff15a9c9158f822259b8c00261",
+      "txLink": "https://sepolia.etherscan.io/tx/0x58857405b237578fe2b7b24926241f0488b049ff15a9c9158f822259b8c00261",
+      "from": "0x380553E3e9Ed8599e8008373Ba8fdDFE25bd7E08",
+      "to": "0xF367d075C9c8789Ea1b39c7D761Cc5E71F91745D",
+      "gasUsed": "86457",
+      "effectiveGasPrice": "3033609324",
+      "gasCostWei": "262276761325068",
+      "blockNumber": 11404664,
+      "blockTimestamp": 1785689376,
+      "latencyMs": 13428,
+      "status": 1,
+      "eventNames": [
+        "userPaid",
+        "leafClaimed"
+      ]
+    },
+    {
+      "label": "claim:9",
+      "txHash": "0xa65ae5a131a91c05cdaa9820daa4b0f01043056747ce19992f8fe8aa12c3c456",
+      "txLink": "https://sepolia.etherscan.io/tx/0xa65ae5a131a91c05cdaa9820daa4b0f01043056747ce19992f8fe8aa12c3c456",
+      "from": "0xbbC35a7eAD4A5FB6f7aBBC7f4b0048B0A8f87596",
+      "to": "0xF367d075C9c8789Ea1b39c7D761Cc5E71F91745D",
+      "gasUsed": "86478",
+      "effectiveGasPrice": "3033609324",
+      "gasCostWei": "262340467120872",
+      "blockNumber": 11404664,
+      "blockTimestamp": 1785689376,
+      "latencyMs": 13443,
+      "status": 1,
+      "eventNames": [
+        "userPaid",
+        "leafClaimed"
+      ]
+    },
+    {
+      "label": "claim:10",
+      "txHash": "0xdadfb00f667098ad22e4ae01b7de1cf049cdf3b1dbe33ce19370c8ac0b9e3341",
+      "txLink": "https://sepolia.etherscan.io/tx/0xdadfb00f667098ad22e4ae01b7de1cf049cdf3b1dbe33ce19370c8ac0b9e3341",
+      "from": "0x1a5063bb6C10Df0b19eC5dd9c2C64071261cdCFf",
+      "to": "0xF367d075C9c8789Ea1b39c7D761Cc5E71F91745D",
+      "gasUsed": "86490",
+      "effectiveGasPrice": "3033609324",
+      "gasCostWei": "262376870432760",
+      "blockNumber": 11404664,
+      "blockTimestamp": 1785689376,
+      "latencyMs": 13440,
+      "status": 1,
+      "eventNames": [
+        "userPaid",
+        "leafClaimed"
+      ]
+    },
+    {
+      "label": "claim:11",
+      "txHash": "0xa03935bd8e520bdc84d3842e004da9b3270d38c396c24e81fd6863922720428b",
+      "txLink": "https://sepolia.etherscan.io/tx/0xa03935bd8e520bdc84d3842e004da9b3270d38c396c24e81fd6863922720428b",
+      "from": "0xA2b63289e0B2eA6C57E22449E794e35a7d64c01B",
+      "to": "0xF367d075C9c8789Ea1b39c7D761Cc5E71F91745D",
+      "gasUsed": "86511",
+      "effectiveGasPrice": "3033609324",
+      "gasCostWei": "262440576228564",
+      "blockNumber": 11404664,
+      "blockTimestamp": 1785689376,
+      "latencyMs": 13435,
+      "status": 1,
+      "eventNames": [
+        "userPaid",
+        "leafClaimed"
+      ]
+    },
+    {
+      "label": "claim:12",
+      "txHash": "0xd05e42c3e3964c039f7f4eab76d07f4e176ea76e29ef7ab67da683a44f81688f",
+      "txLink": "https://sepolia.etherscan.io/tx/0xd05e42c3e3964c039f7f4eab76d07f4e176ea76e29ef7ab67da683a44f81688f",
+      "from": "0x2FdF8d70C62226B735ECB98d5f94600877C07052",
+      "to": "0xF367d075C9c8789Ea1b39c7D761Cc5E71F91745D",
+      "gasUsed": "86478",
+      "effectiveGasPrice": "3033609324",
+      "gasCostWei": "262340467120872",
+      "blockNumber": 11404664,
+      "blockTimestamp": 1785689376,
+      "latencyMs": 13324,
+      "status": 1,
+      "eventNames": [
+        "userPaid",
+        "leafClaimed"
+      ]
+    }
+  ],
+  "claimFundingTransactions": [
+    {
+      "label": "fundSharedUser:0xa1604Ef6c48204BbF15Fd84458d69C6C0cD59993",
+      "txHash": "0xbcb48e3f0ed7b690734d09ca613dcde04ada9f6182a6b445a87b3df4f8d4dccf",
+      "txLink": "https://sepolia.etherscan.io/tx/0xbcb48e3f0ed7b690734d09ca613dcde04ada9f6182a6b445a87b3df4f8d4dccf",
+      "from": "0xE875A5cdFF44FA0990F8497d2dE9389d3A82748F",
+      "to": "0xa1604Ef6c48204BbF15Fd84458d69C6C0cD59993",
+      "gasUsed": "21000",
+      "effectiveGasPrice": "956044846",
+      "gasCostWei": "20076941766000",
+      "blockNumber": 11404663,
+      "blockTimestamp": 1785689364,
+      "latencyMs": 4262,
+      "status": 1,
+      "eventNames": []
+    },
+    {
+      "label": "fundSharedUser:0x0A7146B9dFc38AB8884317ED0B7588fB4534e5D6",
+      "txHash": "0x6d705bf78a5824823616142fa741eaa3205714fa5d1c17e87cfb36abd741b53d",
+      "txLink": "https://sepolia.etherscan.io/tx/0x6d705bf78a5824823616142fa741eaa3205714fa5d1c17e87cfb36abd741b53d",
+      "from": "0xE875A5cdFF44FA0990F8497d2dE9389d3A82748F",
+      "to": "0x0A7146B9dFc38AB8884317ED0B7588fB4534e5D6",
+      "gasUsed": "21000",
+      "effectiveGasPrice": "956044846",
+      "gasCostWei": "20076941766000",
+      "blockNumber": 11404663,
+      "blockTimestamp": 1785689364,
+      "latencyMs": 4254,
+      "status": 1,
+      "eventNames": []
+    },
+    {
+      "label": "fundSharedUser:0xFA21adff4dDCb5bA95fd84690449c4406bDd497f",
+      "txHash": "0x29b1277fbcb9708dca124417c714d390692bd7d203c49f6d1b9bf528f1966054",
+      "txLink": "https://sepolia.etherscan.io/tx/0x29b1277fbcb9708dca124417c714d390692bd7d203c49f6d1b9bf528f1966054",
+      "from": "0xE875A5cdFF44FA0990F8497d2dE9389d3A82748F",
+      "to": "0xFA21adff4dDCb5bA95fd84690449c4406bDd497f",
+      "gasUsed": "21000",
+      "effectiveGasPrice": "956044846",
+      "gasCostWei": "20076941766000",
+      "blockNumber": 11404663,
+      "blockTimestamp": 1785689364,
+      "latencyMs": 4252,
+      "status": 1,
+      "eventNames": []
+    },
+    {
+      "label": "fundSharedUser:0x219A9BA3aB4D4Db17a3394c8633F01962C592825",
+      "txHash": "0x7c12b3072df52efe5b9f6fe62b7d5a912eed3b8810612c330796e883d29c5b84",
+      "txLink": "https://sepolia.etherscan.io/tx/0x7c12b3072df52efe5b9f6fe62b7d5a912eed3b8810612c330796e883d29c5b84",
+      "from": "0xE875A5cdFF44FA0990F8497d2dE9389d3A82748F",
+      "to": "0x219A9BA3aB4D4Db17a3394c8633F01962C592825",
+      "gasUsed": "21000",
+      "effectiveGasPrice": "956044846",
+      "gasCostWei": "20076941766000",
+      "blockNumber": 11404663,
+      "blockTimestamp": 1785689364,
+      "latencyMs": 4252,
+      "status": 1,
+      "eventNames": []
+    },
+    {
+      "label": "fundSharedUser:0xDc124B53c4325e63622aDf5B35Fa5AeA9DD74393",
+      "txHash": "0x18a88def3ac614ae6c0fbf8ed029d0d162c2f90995766b0207c467802d1b21e7",
+      "txLink": "https://sepolia.etherscan.io/tx/0x18a88def3ac614ae6c0fbf8ed029d0d162c2f90995766b0207c467802d1b21e7",
+      "from": "0xE875A5cdFF44FA0990F8497d2dE9389d3A82748F",
+      "to": "0xDc124B53c4325e63622aDf5B35Fa5AeA9DD74393",
+      "gasUsed": "21000",
+      "effectiveGasPrice": "956044846",
+      "gasCostWei": "20076941766000",
+      "blockNumber": 11404663,
+      "blockTimestamp": 1785689364,
+      "latencyMs": 102,
+      "status": 1,
+      "eventNames": []
+    },
+    {
+      "label": "fundSharedUser:0xe3c3d60906E6D436ddcF0DE7A947Ea66d2fc37f5",
+      "txHash": "0xf96d5bd60b447c1a7e6fb7f9b5c73271fb6d916640f5d96b699f6d8c4909d1d6",
+      "txLink": "https://sepolia.etherscan.io/tx/0xf96d5bd60b447c1a7e6fb7f9b5c73271fb6d916640f5d96b699f6d8c4909d1d6",
+      "from": "0xE875A5cdFF44FA0990F8497d2dE9389d3A82748F",
+      "to": "0xe3c3d60906E6D436ddcF0DE7A947Ea66d2fc37f5",
+      "gasUsed": "21000",
+      "effectiveGasPrice": "956044846",
+      "gasCostWei": "20076941766000",
+      "blockNumber": 11404663,
+      "blockTimestamp": 1785689364,
+      "latencyMs": 97,
+      "status": 1,
+      "eventNames": []
+    },
+    {
+      "label": "fundSharedUser:0xff0751932a22aF83E24653193d8138EB5E7e98D7",
+      "txHash": "0x2a05c75da6e3c43a1a6fd6b893898db6696829f38d4753fe9e0fa59efb16db10",
+      "txLink": "https://sepolia.etherscan.io/tx/0x2a05c75da6e3c43a1a6fd6b893898db6696829f38d4753fe9e0fa59efb16db10",
+      "from": "0xE875A5cdFF44FA0990F8497d2dE9389d3A82748F",
+      "to": "0xff0751932a22aF83E24653193d8138EB5E7e98D7",
+      "gasUsed": "21000",
+      "effectiveGasPrice": "956044846",
+      "gasCostWei": "20076941766000",
+      "blockNumber": 11404663,
+      "blockTimestamp": 1785689364,
+      "latencyMs": 111,
+      "status": 1,
+      "eventNames": []
+    },
+    {
+      "label": "fundSharedUser:0xB6363468E3Ff66361c37E08d33F3FEEACEaB4391",
+      "txHash": "0x6c5f1578dd375d1b02c1af8cb1e7cd410961f9329b170cd27d956eeffe9940e5",
+      "txLink": "https://sepolia.etherscan.io/tx/0x6c5f1578dd375d1b02c1af8cb1e7cd410961f9329b170cd27d956eeffe9940e5",
+      "from": "0xE875A5cdFF44FA0990F8497d2dE9389d3A82748F",
+      "to": "0xB6363468E3Ff66361c37E08d33F3FEEACEaB4391",
+      "gasUsed": "21000",
+      "effectiveGasPrice": "956044846",
+      "gasCostWei": "20076941766000",
+      "blockNumber": 11404663,
+      "blockTimestamp": 1785689364,
+      "latencyMs": 100,
+      "status": 1,
+      "eventNames": []
+    },
+    {
+      "label": "fundSharedUser:0x380553E3e9Ed8599e8008373Ba8fdDFE25bd7E08",
+      "txHash": "0x90bca3267efa0a242bbe192075878665ce084e1b65a7b9e533c26aed05f3b0dd",
+      "txLink": "https://sepolia.etherscan.io/tx/0x90bca3267efa0a242bbe192075878665ce084e1b65a7b9e533c26aed05f3b0dd",
+      "from": "0xE875A5cdFF44FA0990F8497d2dE9389d3A82748F",
+      "to": "0x380553E3e9Ed8599e8008373Ba8fdDFE25bd7E08",
+      "gasUsed": "21000",
+      "effectiveGasPrice": "956044846",
+      "gasCostWei": "20076941766000",
+      "blockNumber": 11404663,
+      "blockTimestamp": 1785689364,
+      "latencyMs": 104,
+      "status": 1,
+      "eventNames": []
+    },
+    {
+      "label": "fundSharedUser:0xbbC35a7eAD4A5FB6f7aBBC7f4b0048B0A8f87596",
+      "txHash": "0x16563ee41d0db65498f883de33e4e4953c4a81e85d6ccba31f25af5cc8da8c4d",
+      "txLink": "https://sepolia.etherscan.io/tx/0x16563ee41d0db65498f883de33e4e4953c4a81e85d6ccba31f25af5cc8da8c4d",
+      "from": "0xE875A5cdFF44FA0990F8497d2dE9389d3A82748F",
+      "to": "0xbbC35a7eAD4A5FB6f7aBBC7f4b0048B0A8f87596",
+      "gasUsed": "21000",
+      "effectiveGasPrice": "956044846",
+      "gasCostWei": "20076941766000",
+      "blockNumber": 11404663,
+      "blockTimestamp": 1785689364,
+      "latencyMs": 97,
+      "status": 1,
+      "eventNames": []
+    },
+    {
+      "label": "fundSharedUser:0x1a5063bb6C10Df0b19eC5dd9c2C64071261cdCFf",
+      "txHash": "0x26e8acf859a71407d3d891a90bb56c4c5dc9fb6da1cdc64bb029011899073cc4",
+      "txLink": "https://sepolia.etherscan.io/tx/0x26e8acf859a71407d3d891a90bb56c4c5dc9fb6da1cdc64bb029011899073cc4",
+      "from": "0xE875A5cdFF44FA0990F8497d2dE9389d3A82748F",
+      "to": "0x1a5063bb6C10Df0b19eC5dd9c2C64071261cdCFf",
+      "gasUsed": "21000",
+      "effectiveGasPrice": "956044846",
+      "gasCostWei": "20076941766000",
+      "blockNumber": 11404663,
+      "blockTimestamp": 1785689364,
+      "latencyMs": 119,
+      "status": 1,
+      "eventNames": []
+    },
+    {
+      "label": "fundSharedUser:0xA2b63289e0B2eA6C57E22449E794e35a7d64c01B",
+      "txHash": "0x69953a8daf2d93ae7813c9552771fa64047d1de30ff8be2e8032ec0de48965ba",
+      "txLink": "https://sepolia.etherscan.io/tx/0x69953a8daf2d93ae7813c9552771fa64047d1de30ff8be2e8032ec0de48965ba",
+      "from": "0xE875A5cdFF44FA0990F8497d2dE9389d3A82748F",
+      "to": "0xA2b63289e0B2eA6C57E22449E794e35a7d64c01B",
+      "gasUsed": "21000",
+      "effectiveGasPrice": "956044846",
+      "gasCostWei": "20076941766000",
+      "blockNumber": 11404663,
+      "blockTimestamp": 1785689364,
+      "latencyMs": 101,
+      "status": 1,
+      "eventNames": []
+    },
+    {
+      "label": "fundSharedUser:0x2FdF8d70C62226B735ECB98d5f94600877C07052",
+      "txHash": "0x579970291769f6eff6d1dcc888fc8032d90c0eb0c91d13d3d5b3d433cf93b21c",
+      "txLink": "https://sepolia.etherscan.io/tx/0x579970291769f6eff6d1dcc888fc8032d90c0eb0c91d13d3d5b3d433cf93b21c",
+      "from": "0xE875A5cdFF44FA0990F8497d2dE9389d3A82748F",
+      "to": "0x2FdF8d70C62226B735ECB98d5f94600877C07052",
+      "gasUsed": "21000",
+      "effectiveGasPrice": "956044846",
+      "gasCostWei": "20076941766000",
+      "blockNumber": 11404663,
+      "blockTimestamp": 1785689364,
+      "latencyMs": 91,
+      "status": 1,
+      "eventNames": []
+    }
+  ]
+}

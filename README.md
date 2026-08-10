@@ -40,38 +40,10 @@ It records 19 root scenarios, 779 completed claims, five direct settlement paths
 
 ## Reproducibility
 
-### Prerequisites
-
-- Node.js 18 or later
-- npm 9 or later
-- A Sepolia RPC endpoint and funded test account only when re-running deployment scripts
-
-### Local validation
-
-```bash
-npm ci
-npx hardhat compile
-npx hardhat test test/AuroraR2.test.js
-npx hardhat test test/AuroraR2Benchmark.test.js
-npm run benchmark:local
-```
-
-### Docker evaluation
-
-The container follows the upstream ALBA artifact model: it installs the pinned Node dependencies, compiles the contracts, and runs the complete local lifecycle benchmark by default.
+The Docker workflow installs the pinned dependencies, compiles the contracts, runs the complete local lifecycle benchmark, and writes the resulting JSON artifact to the mounted `results/` directory.
 
 ```bash
 docker build --no-cache -t aurora .
-docker run --rm aurora
-```
-
-To preserve the newly generated local artifact on the host, mount the repository `results/` directory:
-
-```bash
-# Linux/macOS
-docker run --rm -v "$(pwd)/results:/app/results" aurora
-
-# PowerShell
 docker run --rm --mount "type=bind,source=$($PWD.Path)\results,target=/app/results" aurora
 ```
 

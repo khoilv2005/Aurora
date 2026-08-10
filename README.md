@@ -21,19 +21,13 @@ test/                          Hardhat unit, invariant, and benchmark tests
 results/local/                 Reproducible local-lifecycle benchmark artifact
 data/                          Bitcoin-side test vectors and Sepolia dispute vectors
 python-bitcoin-utils/          Bitcoin transaction and dispute-vector utilities
-scripts/Testnet/lib/           Shared testnet execution utilities
-scripts/Testnet/r2/            Testnet deployment scripts and latest Sepolia artifacts
-scripts/Testnet/r2/full/       Complete campaign orchestration and final metrics
+scripts/Testnet/               Sepolia deployment, execution, and validation utilities
 scripts/local/                 Local benchmark runner
 RESULTS_MAP.md                 Metric-to-artifact traceability map
 Dockerfile                     Reproducible local-evaluation container
 ```
 
-The final testnet summary is at:
-
-```text
-scripts/Testnet/r2/full/scenarios/final-r2-metrics.json
-```
+The [final Sepolia metrics artifact](scripts/Testnet/r2/full/scenarios/final-r2-metrics.json) records the completed campaign.
 
 It records 19 root scenarios, 779 completed claims, five direct settlement paths, gas ledgers, transaction receipts, runtime-bytecode verification, and reverted-call evidence. All reported gas values are transaction `gasUsed`; ETH fees and blob fees remain in the raw artifacts for cost reconstruction.
 
@@ -44,24 +38,6 @@ The Docker workflow installs the pinned dependencies, compiles the contracts, ru
 ```bash
 docker build --no-cache -t aurora .
 docker run --rm --mount "type=bind,source=$($PWD.Path)\results,target=/app/results" aurora
-```
-
-### Testnet configuration
-
-Create a local `.env` file that is never committed:
-
-```text
-ALCHEMY_API_KEY=<your Sepolia RPC key>
-SEPOLIA_PRIVATE_KEY=<your funded deployment key>
-ETHERSCAN_API_KEY=<optional verification key>
-```
-
-The completed campaign is preserved as an artifact and should be inspected before any new deployment. To reproduce a new campaign, use the deployment scripts in `scripts/Testnet/r2/`; these scripts send transactions and therefore consume Sepolia ETH.
-
-```bash
-npx hardhat run scripts/Testnet/r2/00_shared/01_deploy.js --network sepolia
-node scripts/Testnet/r2/full/launch.js
-node scripts/Testnet/r2/full/generate_final_metrics.js
 ```
 
 ## Scope and Security Boundary

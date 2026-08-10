@@ -45,7 +45,7 @@ Deployment measurements are also preserved in the local artifact: incremental im
 
 ## Completed Sepolia Campaign
 
-The Sepolia campaign is summarized by `scripts/Testnet/r2/full/scenarios/final-r2-metrics.json`, generated on `2026-08-08T03:23:56.756Z`. It records `19` root scenarios, `779` completed claims, `19` Path-2 settlements, `5` direct settlement-path scenarios, `3,677` final transactions, and one reverted transaction. All values below are transaction `gasUsed` on Sepolia.
+The Sepolia campaign is summarized by the [final Sepolia metrics artifact](scripts/Testnet/r2/full/scenarios/final-r2-metrics.json), generated on `2026-08-08T03:23:56.756Z`. It records `19` root scenarios, `779` completed claims, `19` Path-2 settlements, `5` direct settlement-path scenarios, `3,677` final transactions, and one reverted transaction. All values below are transaction `gasUsed` on Sepolia.
 
 | Scenario | `n` | `N'` | Registration average | Root submission | Source fields |
 |---|---:|---:|---:|---:|---|
@@ -62,12 +62,12 @@ Representative complete protocol lifecycles are `27,743,173` gas for `b2_lifecyc
 | Result family | Canonical source | How to inspect |
 |---|---|---|
 | Local deployment, registration, root, claim, settlement, and lifecycle gas | `results/local/lifecycle-benchmark.json` | Read `deploymentGas` and `results[]`; each entry is keyed by `variant`, `n`, and `paddedN`. |
-| Local reference/incremental equality | `results/local/lifecycle-benchmark.json` and `test/AuroraR2Benchmark.test.js` | The test compares `referenceRegistrationMerkleRoot` and `registrationAccumulatorRoot` with the independently reconstructed root before submission. |
-| Sepolia root and registration gas | `scripts/Testnet/r2/full/scenarios/final-r2-metrics.json` | Read `rootSubmission[]`, then follow each listed `sources[]` receipt. |
-| Sepolia full and sparse lifecycle gas | `scripts/Testnet/r2/full/scenarios/final-r2-metrics.json` | Read `lifecycle`, `representativeProtocolLifecycles`, and the listed receipts. |
-| Sepolia settlement-path gas | `scripts/Testnet/r2/full/scenarios/final-r2-metrics.json` | Read `directPaths[]` and follow each `sources[]` receipt. |
-| Complete transaction ledger, execution fees, and blob fees | `scripts/Testnet/r2/full/scenarios/gas-ledger-final.json` | Filter by scenario identifier and transaction label. |
-| Completion, checkpoint, and reverted-call evidence | `scripts/Testnet/r2/full/scenarios/{launch-report,claim-wait-checkpoint,settlement-wait-checkpoint}.json` | Inspect the scenario-level checkpoint records. |
+| Local reference/incremental equality | `results/local/lifecycle-benchmark.json` and the [local benchmark test](test/AuroraR2Benchmark.test.js) | The test compares `referenceRegistrationMerkleRoot` and `registrationAccumulatorRoot` with the independently reconstructed root before submission. |
+| Sepolia root and registration gas | [Final Sepolia metrics](scripts/Testnet/r2/full/scenarios/final-r2-metrics.json) | Read `rootSubmission[]`, then follow each listed `sources[]` receipt. |
+| Sepolia full and sparse lifecycle gas | [Final Sepolia metrics](scripts/Testnet/r2/full/scenarios/final-r2-metrics.json) | Read `lifecycle`, `representativeProtocolLifecycles`, and the listed receipts. |
+| Sepolia settlement-path gas | [Final Sepolia metrics](scripts/Testnet/r2/full/scenarios/final-r2-metrics.json) | Read `directPaths[]` and follow each `sources[]` receipt. |
+| Complete transaction ledger, execution fees, and blob fees | [Final gas ledger](scripts/Testnet/r2/full/scenarios/gas-ledger-final.json) | Filter by scenario identifier and transaction label. |
+| Completion, checkpoint, and reverted-call evidence | [Campaign checkpoints](scripts/Testnet/r2/full/scenarios/launch-report.json) | Inspect the scenario-level checkpoint records. |
 
 ## Interpretation Notes
 

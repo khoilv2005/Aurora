@@ -1,8 +1,7 @@
 # Aurora: Secure and Scalable Cross-Chain Payment Channel Settlement via Merkle Bitmap Accumulators
 
-**Tuan-Dung Tran**, **Van-Khoi Le**, **Quang-Huy Luu**, and **Van-Hau Pham***<br>
+**Tuan-Dung Tran**, **Van-Khoi Le**, **Quang-Huy Luu**, and **Van-Hau Pham**<br>
 Faculty of Computer Networks and Communications, University of Information Technology, Vietnam National University, Ho Chi Minh City, Vietnam<br>
-\*Corresponding author: Van-Hau Pham
 
 ## Abstract
 

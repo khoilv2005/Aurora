@@ -19,11 +19,14 @@ The repository contains the Solidity implementation, differential and boundary t
 ```text
 contracts/                     Solidity contracts and verification helpers
 test/                          Hardhat unit, invariant, and benchmark tests
+results/local/                 Reproducible local-lifecycle benchmark artifact
 data/                          Bitcoin-side test vectors and Sepolia dispute vectors
 python-bitcoin-utils/          Bitcoin transaction and dispute-vector utilities
 scripts/Testnet/lib/           Shared testnet execution utilities
 scripts/Testnet/r2/            Testnet deployment scripts and latest Sepolia artifacts
 scripts/Testnet/r2/full/       Complete campaign orchestration and final metrics
+scripts/local/                 Local benchmark runner
+RESULTS_MAP.md                 Metric-to-artifact traceability map
 ```
 
 The final testnet summary is at:
@@ -49,6 +52,7 @@ npm ci
 npx hardhat compile
 npx hardhat test test/AuroraR2.test.js
 npx hardhat test test/AuroraR2Benchmark.test.js
+npm run benchmark:local
 ```
 
 ### Testnet configuration

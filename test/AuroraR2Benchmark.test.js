@@ -1,6 +1,8 @@
 const { ethers, network } = require("hardhat");
 const EthCrypto = require("eth-crypto");
 const crypto = require("crypto");
+const fs = require("fs");
+const path = require("path");
 
 /**
  * R2 benchmark harness.  It deliberately executes both root-selection paths
@@ -206,6 +208,24 @@ describe("Aurora R2 - reference vs incremental lifecycle benchmark", function ()
         await network.provider.send("evm_revert", [snapshot]);
       }
     }
-    console.log("R2_BENCHMARK_JSON=" + JSON.stringify({ blockLimit, deploymentGas, results }));
+    const artifact = {
+      schemaVersion: 1,
+      generatedAt: new Date().toISOString(),
+      environment: {
+        network: network.name,
+        chainId: (await ethers.provider.getNetwork()).chainId,
+        execution: "Hardhat local network",
+      },
+      blockLimit,
+      deploymentGas,
+      results,
+    };
+    console.log("R2_BENCHMARK_JSON=" + JSON.stringify(artifact));
+    if (process.env.AURORA_BENCHMARK_OUT) {
+      const outputPath = path.resolve(process.env.AURORA_BENCHMARK_OUT);
+      fs.mkdirSync(path.dirname(outputPath), { recursive: true });
+      fs.writeFileSync(outputPath, `${JSON.stringify(artifact, null, 2)}\n`);
+      console.log(`R2_BENCHMARK_ARTIFACT=${outputPath}`);
+    }
   });
 });

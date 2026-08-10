@@ -27,6 +27,7 @@ scripts/Testnet/r2/            Testnet deployment scripts and latest Sepolia art
 scripts/Testnet/r2/full/       Complete campaign orchestration and final metrics
 scripts/local/                 Local benchmark runner
 RESULTS_MAP.md                 Metric-to-artifact traceability map
+Dockerfile                     Reproducible local-evaluation container
 ```
 
 The final testnet summary is at:
@@ -53,6 +54,25 @@ npx hardhat compile
 npx hardhat test test/AuroraR2.test.js
 npx hardhat test test/AuroraR2Benchmark.test.js
 npm run benchmark:local
+```
+
+### Docker evaluation
+
+The container follows the upstream ALBA artifact model: it installs the pinned Node dependencies, compiles the contracts, and runs the complete local lifecycle benchmark by default.
+
+```bash
+docker build --no-cache -t aurora .
+docker run --rm aurora
+```
+
+To preserve the newly generated local artifact on the host, mount the repository `results/` directory:
+
+```bash
+# Linux/macOS
+docker run --rm -v "$(pwd)/results:/app/results" aurora
+
+# PowerShell
+docker run --rm --mount "type=bind,source=$($PWD.Path)\results,target=/app/results" aurora
 ```
 
 ### Testnet configuration

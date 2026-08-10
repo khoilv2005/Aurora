@@ -1,0 +1,12 @@
+.git
+.env
+.env.*
+node_modules
+artifacts
+cache
+coverage
+*.log
+*.pid
+*.tmp
+paper
+figures

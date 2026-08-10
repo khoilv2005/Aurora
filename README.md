@@ -14,7 +14,7 @@ The repository contains the Solidity implementation, differential and boundary t
 
 ## Repository Contents
 
-**Provenance.** This repository is derived from the [original ALBA protocol codebase](https://github.com/scaffino/Alba-Bridge). It retains the underlying Bitcoin transaction-processing and verification components, and adds Aurora's registered-intent ledger, canonical Merkle accumulator, bitmap-based claims, associated tests, and the accompanying Sepolia evaluation artifacts.
+**Provenance.** This repository is derived from the [original ALBA protocol codebase](https://github.com/scaffino/Alba-Bridge) and its archived [ALBA smart-contract artifact](https://doi.org/10.5281/zenodo.14249987). It retains the underlying Bitcoin transaction-processing and verification components, and adds Aurora's registered-intent ledger, canonical Merkle accumulator, bitmap-based claims, associated tests, and the accompanying Sepolia evaluation artifacts.
 
 ```text
 contracts/                     Solidity contracts and verification helpers

@@ -14,6 +14,8 @@ The repository contains the Solidity implementation, differential and boundary t
 
 ## Repository Contents
 
+**Provenance.** This repository is derived from the original ALBA protocol codebase. It retains the underlying Bitcoin transaction-processing and verification components, and adds Aurora's registered-intent ledger, canonical Merkle accumulator, bitmap-based claims, associated tests, and the accompanying Sepolia evaluation artifacts.
+
 ```text
 contracts/                     Solidity contracts and verification helpers
 test/                          Hardhat unit, invariant, and benchmark tests
